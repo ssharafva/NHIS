@@ -1,0 +1,881 @@
+Question#,Recode,InstrumentVariableName,FinalDocName,ProcessingVariableLabel,Location,Length
+IDN.000_00.000,,,RECTYPE,File type identifier,2-Jan,2
+IDN.000_02.000,,,SRVY_YR,Year of National Health Interview Survey,6-Mar,4
+IDN.000_04.000,,,HHX,Household Number,12-Jul,6
+IDN.000_35.000,,,FMX,Family Number,13 - 14,2
+IDN.000_40.000,,FPX,FPX,Person Number (Within family),15 - 16,2
+IDN.000_70.000,,,WTFA_SA,Weight - Final Annual,17 - 22,6
+UCF.000_00.000,R15 Recode,,STRAT_P,Pseudo-stratum for public-use file variance estimation,23 - 25,3
+UCF.000_00.000,R16 Recode,,PSU_P,Pseudo-PSU for public-use file variance estimation,26 - 27,2
+ALT.001_00.000,,PROV1,PROV1,Has a personal health care provider,28,1
+ALT.002_01.000,,PROVTYP1-PROVTYP4,PROVTYP1,"Personal health care provider is a medical doctor (M.D., D.O.), including specialists",29,1
+ALT.002_02.000,,PROVTYP1-PROVTYP4,PROVTYP2,"Personal health care provider is a nurse, nurse practitioner, or physician's assistant",30,1
+ALT.002_03.000,,PROVTYP1-PROVTYP4,PROVTYP3,"Personal health care provider is a chiropractor, acupuncturist, or naturopath",31,1
+ALT.002_04.000,,PROVTYP1-PROVTYP4,PROVTYP4,Personal health care provider is 'other',32,1
+ALT.003_01.000,,PROVUSP1-PROVUSP4,PROVUSP1,"Sees a medical doctor (M.D., D.O.) at usual place of care",33,1
+ALT.003_02.000,,PROVUSP1-PROVUSP4,PROVUSP2,"Sees a nurse, nurse practitioner, or physician assistant at usual place of care",34,1
+ALT.003_03.000,,PROVUSP1-PROVUSP4,PROVUSP3,"Sees a chiropractor, acupuncturist, or naturopath at usual place of care",35,1
+ALT.003_04.000,,PROVUSP1-PROVUSP4,PROVUSP4,Sees another type of provider at usual place of care,36,1
+ALT.004_01.000,,PROVRTN1-PROVRTN4,PROVRTN1,"Sees a medical doctor (M.D., D.O.) for routine care",37,1
+ALT.004_02.000,,PROVRTN1-PROVRTN4,PROVRTN2,"Sees a nurse, nurse practitioner, or physician assistant for routine care",38,1
+ALT.004_03.000,,PROVRTN1-PROVRTN4,PROVRTN3,"Sees a chiropractor, acupuncturist, or naturopath for routine care",39,1
+ALT.004_04.000,,PROVRTN1-PROVRTN4,PROVRTN4,"Sees an ""other"" type of provider for routine care",40,1
+ALT.010_00.000,,COM_USE,COM_USE,"Used chiropractic or osteopathic manipulation, ever",41,1
+ALT.011_00.000,,COM_EVER,COM_EVER,"Saw a practitioner for chiropractic or osteopathic manipulation, ever",42,1
+ALT.012_00.000,,COM_USEM,COM_USEM,"Saw a practitioner for chiropractic or osteopathic manipulation, past 12 months",43,1
+ALT.013_00.000,,COM_USM,COM_USM,"Used chiropractic or osteopathic manipulation, past 12 months",44,1
+ALT.014_00.000,,COM_TYPE,COM_TYPE,Type of practitioner seen for chiropractic or osteopathic manipulation,45,1
+ALT.015_00.000,,COM_PMST,COM_PMST,"Type of practitioner seen the most for chiropractic or osteopathic manipulation, past 12 months",46,1
+ALT.016_00.000,,COM_PHCP,COM_PHCP,Practitioner seen for chiropractic manipulation is also personal healthcare provider,47,1
+ALT.017_00.000,,COM_PTIM,COM_PTIM,"Knows exact number of times saw a practitioner of chiropractic or osteopathic manipulation, past 12 months",48,1
+ALT.018_00.000,,COM_TMNO,COM_TMNO,"Exact number of times saw a practitioner for chiropractic or osteopathic manipulation, past 12 months",49 - 50,2
+ALT.019_00.000,,COM_TMCT,COM_TMCT,"Approximate number of times saw practitioner for chiropractic or osteopathic manipulation, past 12 months",51 - 52,2
+ALT.021_00.000,,COM_HIC,COM_HIC,Any cost of seeing practitioner for chiropractic/osteopathic manipulation was covered by insurance,53,1
+ALT.022_00.000,,COM_HICA,COM_HICA,Portion of the cost of seeing practitioner for chiropractic/osteopathic manipulation covered by health insurance,54,1
+ALT.023_00.000,,COM_HIT,COM_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for chiropractic/osteopathic manipulation,55,1
+ALT.024_00.000,,COM_HITS,COM_HITS,Total amount paid out-of-pocket for seeing a practitioner for chiropractic/osteopathic manipulation,56 - 60,5
+ALT.025_00.010,,COM_AVGC,COM_AVGC,Knows average amount paid out-of-pocket for each visit for chiropractic/osteopathic manipulation,61,1
+ALT.026_00.000,,COM_AVGS,COM_AVGS,Average out-of-pocket cost paid for each visit to practitioner for chiropractic/osteopathic manipulation,62 - 64,3
+ALT.027_00.000,,COM_MAT,COM_MAT,Bought self-help book or other materials to learn about chiropractic/osteopathic manipulation,65,1
+ALT.028_00.000,,COM_MATC,COM_MATC,Amount paid for self-help book or other materials to learn about chiropractic/osteopathic manipulation,66 - 68,3
+ALT.037_00.000,,MAS_USE,MAS_USE,"Used massage for health, ever",69,1
+ALT.038_00.000,,MAS_EVER,MAS_EVER,"Saw a practitioner for massage, ever",70,1
+ALT.039_00.000,,MAS_USEM,MAS_USEM,"Saw a practitioner for massage, past 12 months",71,1
+ALT.040_00.000,,MAS_USM,MAS_USM,"Used massage, past 12 months",72,1
+ALT.041_00.000,,MAS_PTIM,MAS_PTIM,"Knows exact number of times saw a practitioner for massage, past 12 months",73,1
+ALT.042_00.000,,MAS_TMNO,MAS_TMNO,"Exact number of times saw a practitioner for massage, past 12 months",74 - 75,2
+ALT.043_00.000,,MAS_TMCT,MAS_TMCT,"Approximate number of times saw a practitioner for massage, past 12 months",76 - 77,2
+ALT.044_00.000,,MAS_HIC,MAS_HIC,Any cost of seeing practitioner for massage was covered by insurance,78,1
+ALT.045_00.000,,MAS_HICA,MAS_HICA,Portion of the cost of seeing practitioner for massage covered by health insurance,79,1
+ALT.046_00.000,,MAS_HIT,MAS_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for massage,80,1
+ALT.047_00.000,,MAS_HITS,MAS_HITS,Total amount paid out-of-pocket for seeing a practitioner for massage,81 - 85,5
+ALT.048_00.000,,MAS_AVGC,MAS_AVGC,Knows average amount paid out-of-pocket for each visit for massage,86,1
+ALT.049_00.000,,MAS_AVGS,MAS_AVGS,Average out-of-pocket cost paid for each massage visit,87 - 89,3
+ALT.050_00.000,,MAS_MAT,MAS_MAT,Bought self-help book or other materials to learn about massage,90,1
+ALT.051_00.000,,MAS_MATC,MAS_MATC,Amount paid for self-help book or other materials to learn about massage,91 - 93,3
+ALT.061_00.000,,ACU_USE,ACU_USE,"Used acupuncture for health, ever",94,1
+ALT.062_00.000,,ACU_EVER,ACU_EVER,"Saw a practitioner for acupuncture, ever",95,1
+ALT.063_00.000,,ACU_USEM,ACU_USEM,"Saw a practitioner for acupuncture, past 12 months",96,1
+ALT.064_00.000,,ACU_USM,ACU_USM,"Used acupuncture, past 12 months",97,1
+ALT.065_00.000,,ACU_PTIM,ACU_PTIM,"Knows exact number of times saw a practitioner for acupuncture, past 12 months",98,1
+ALT.066_00.000,,ACU_TMNO,ACU_TMNO,"Exact number of times saw a practitioner for acupuncture, past 12 months",99 - 100,2
+ALT.067_00.000,,ACU_TMCT,ACU_TMCT,"Approximate number of times saw a practitioner for acupuncture, past 12 months",101 - 102,2
+ALT.068_00.000,,ACU_HIC,ACU_HIC,Any cost of seeing practitioner for acupuncture was covered by insurance,103,1
+ALT.069_00.000,,ACU_HICA,ACU_HICA,Portion of the cost of seeing practitioner for acupuncture covered by health insurance,104,1
+ALT.070_00.000,,ACU_HIT,ACU_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for acupuncture,105,1
+ALT.071_00.000,,ACU_HITS,ACU_HITS,Total amount paid out-of-pocket for seeing a practitioner for acupuncture,106 - 110,5
+ALT.072_00.000,,ACU_AVGC,ACU_AVGC,Knows average amount paid out-of-pocket per visit for acupuncture,111,1
+ALT.073_00.000,,ACU_AVGS,ACU_AVGS,Average out-of-pocket cost paid for each acupuncture visit,112 - 114,3
+ALT.074_00.000,,ACU_MAT,ACU_MAT,Bought self-help book or other materials to learn about acupuncture,115,1
+ALT.075_00.000,,ACU_MATC,ACU_MATC,Amount paid for self-help book or other materials to learn about acupuncture,116 - 118,3
+ALT.085_00.000,,EHT_USE,EHT_USE,"Used energy healing therapy for health, ever",119,1
+ALT.086_00.000,,EHT_EVER,EHT_EVER,"Saw a practitioner for energy healing therapy, ever",120,1
+ALT.087_00.000,,EHT_USEM,EHT_USEM,"Saw a practitioner for energy healing therapy, past 12 months",121,1
+ALT.088_00.000,,EHT_USM,EHT_USM,"Used energy healing therapy, past 12 months",122,1
+ALT.089_00.000,,EHT_PTIM,EHT_PTIM,"Knows exact number of times saw a practitioner for energy healing therapy, past 12 months",123,1
+ALT.090_00.000,,EHT_TMNO,EHT_TMNO,"Exact number of times saw a practitioner for energy healing therapy, past 12 months",124 - 125,2
+ALT.091_00.000,,EHT_TMCT,EHT_TMCT,"Approximate number of times saw a practitioner for energy healing therapy, past 12 months",126 - 127,2
+ALT.092_00.000,,EHT_HIC,EHT_HIC,Any cost of seeing a practitioner for energy healing therapy was covered by insurance,128,1
+ALT.093_00.000,,EHT_HICA,EHT_HICA,Portion of the cost of seeing a practitioner for energy healing therapy covered by health insurance,129,1
+ALT.094_00.000,,EHT_HIT,EHT_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for energy healing therapy,130,1
+ALT.095_00.000,,EHT_HITS,EHT_HITS,Total amount paid for seeing a practitioner for energy healing therapy,131 - 135,5
+ALT.096_00.000,,EHT_AVGC,EHT_AVGC,Knows average amount paid out-of-pocket per visit for energy healing therapy,136,1
+ALT.097_00.000,,EHT_AVGS,EHT_AVGS,Average out-of-pocket cost paid for each energy healing therapy visit,137 - 139,3
+ALT.098_00.000,,EHT_MAT,EHT_MAT,Bought self-help book or other materials to learn about energy healing therapy,140,1
+ALT.099_00.000,,EHT_MATC,EHT_MATC,Amount paid for self-help book or other materials to learn about energy healing therapy,141 - 143,3
+ALT.109_00.000,,NAT_USE,NAT_USE,"Used naturopathy for health, ever",144,1
+ALT.110_00.000,,NAT_EVER,NAT_EVER,"Saw a practitioner for naturopathy, ever",145,1
+ALT.111_00.000,,NAT_USEM,NAT_USEM,"Saw a practitioner for naturopathy, past 12 months",146,1
+ALT.112_00.000,,NAT_USM,NAT_USM,"Used naturopathy, past 12 months",147,1
+ALT.113_00.000,,NAT_PTIM,NAT_PTIM,"Knows exact number of times saw a practitioner for naturopathy, past 12 months",148,1
+ALT.114_00.000,,NAT_TMNO,NAT_TMNO,"Exact number of times saw a practitioner for naturopathy, past 12 months",149 - 150,2
+ALT.115_00.000,,NAT_TMCT,NAT_TMCT,"Approximate number of times saw a practitioner for naturopathy, past 12 months",151 - 152,2
+ALT.116_00.000,,NAT_HIC,NAT_HIC,Any cost of seeing practitioner for naturopathy was covered by insurance,153,1
+ALT.117_00.000,,NAT_HICA,NAT_HICA,Portion of the cost of seeing practitioner for naturopathy covered by insurance,154,1
+ALT.118_00.000,,NAT_HIT,NAT_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for naturopathy,155,1
+ALT.119_00.000,,NAT_HITS,NAT_HITS,Total amount paid out-of-pocket for seeing a practitioner for naturopathy,156 - 160,5
+ALT.120_00.000,,NAT_AVGC,NAT_AVGC,Knows average amount paid out-of-pocket per visit for seeing a practitioner for naturopathy,161,1
+ALT.121_00.000,,NAT_AVGS,NAT_AVGS,Average out-of-pocket cost paid for each naturopathy visit,162 - 164,3
+ALT.122_00.000,,NAT_MAT,NAT_MAT,Bought self-help book or other materials to learn about naturopathy,165,1
+ALT.123_00.000,,NAT_MATC,NAT_MATC,Amount paid for self-help book or other materials to learn about naturopathy,166 - 168,3
+ALT.133_00.000,,HYP_USE,HYP_USE,"Used hypnosis for health, ever",169,1
+ALT.134_00.000,,HYP_EVER,HYP_EVER,"Saw a practitioner for hypnosis, ever",170,1
+ALT.135_00.000,,HYP_USEM,HYP_USEM,"Saw a practitioner for hypnosis, past 12 months",171,1
+ALT.136_00.000,,HYP_BRTH,HYP_BRTH,Did breathing exercises as part of hypnosis,172,1
+ALT.137_00.000,,HYP_USM,HYP_USM,"Used hypnosis, past 12 months",173,1
+ALT.138_00.000,,HYP_PTIM,HYP_PTIM,"Knows exact number of times saw a practitioner for hypnosis, past 12 months",174,1
+ALT.139_00.000,,HYP_TMNO,HYP_TMNO,"Exact number of times saw a practitioner for hypnosis, past 12 months",175 - 176,2
+ALT.140_00.000,,HYP_TMCT,HYP_TMCT,"Approximate number of times saw a practitioner for hypnosis, past 12 months",177 - 178,2
+ALT.141_00.000,,HYP_HIC,HYP_HIC,Any cost of seeing practitioner for hypnosis was covered by insurance,179,1
+ALT.142_00.000,,HYP_HICA,HYP_HICA,Portion of the cost of seeing practitioner for hypnosis covered by insurance,180,1
+ALT.143_00.000,,HYP_HIT,HYP_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for hypnosis,181,1
+ALT.144_00.000,,HYP_HITS,HYP_HITS,Total amount paid out-of-pocket for seeing a practitioner for hypnosis,182 - 186,5
+ALT.145_00.000,,HYP_AVGC,HYP_AVGC,Knows average amount paid out-of-pocket per visit for seeing a practitioner for hypnosis,187,1
+ALT.146_00.000,,HYP_AVGS,HYP_AVGS,Average amount paid out-of-pocket per visit for seeing a practitioner for hypnosis,188 - 190,3
+ALT.147_00.000,,HYP_MAT,HYP_MAT,Bought self-help book or other materials to learn about hypnosis,191,1
+ALT.148_00.000,,HYP_MATC,HYP_MATC,Amount paid for self-help book or other materials to learn about hypnosis,192 - 194,3
+ALT.158_00.000,,BIO_USE,BIO_USE,"Used biofeedback for health, ever",195,1
+ALT.159_00.000,,BIO_EVER,BIO_EVER,"Saw a practitioner for biofeedback, ever",196,1
+ALT.160_00.000,,BIO_USEM,BIO_USEM,"Saw a practitioner for biofeedback, past 12 months",197,1
+ALT.161_00.000,,BIO_BRTH,BIO_BRTH,Did breathing exercises as part of biofeedback,198,1
+ALT.162_00.000,,BIO_USM,BIO_USM,"Used biofeedback, past 12 months",199,1
+ALT.163_00.000,,BIO_PTIM,BIO_PTIM,"Knows exact number of times saw a practitioner for biofeedback, past 12 months",200,1
+ALT.164_00.000,,BIO_TMNO,BIO_TMNO,"Exact number of times saw a practitioner for biofeedback, past 12 months",201 - 202,2
+ALT.165_00.000,,BIO_TMCT,BIO_TMCT,"Approximate number of times saw a practitioner for biofeedback, past 12 months",203 - 204,2
+ALT.166_00.000,,BIO_HIC,BIO_HIC,Any cost of seeing practitioner for biofeedback was covered by insurance,205,1
+ALT.167_00.000,,BIO_HICA,BIO_HICA,Portion of the cost of seeing practitioner for biofeedback covered by insurance,206,1
+ALT.168_00.000,,BIO_HIT,BIO_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for,207,1
+ALT.169_00.000,,BIO_HITS,BIO_HITS,Total amount paid out-of-pocket for seeing a practitioner for biofeedback,208 - 212,5
+ALT.170_00.000,,BIO_AVGC,BIO_AVGC,Knows average amount paid out-of-pocket per visit for seeing a practitioner for biofeedback,213,1
+ALT.171_00.000,,BIO_AVGS,BIO_AVGS,Average amount paid out-of-pocket per visit for biofeedback,214 - 216,3
+ALT.172_00.000,,BIO_MAT,BIO_MAT,Bought self-help book or other materials to learn about biofeedback,217,1
+ALT.173_00.000,,BIO_MATC,BIO_MATC,Amount paid for self-help book or other materials to learn about biofeedback,218 - 220,3
+ALT.183_00.000,,AYU_USE,AYU_USE,"Used ayurveda for health, ever",221,1
+ALT.184_00.000,,AYU_EVER,AYU_EVER,"Saw a practitioner for ayurveda, ever",222,1
+ALT.185_00.000,,AYU_USEM,AYU_USEM,"Saw a practitioner for ayurveda, past 12 months",223,1
+ALT.186_00.000,,AYU_USM,AYU_USM,"Used ayurveda, past 12 months",224,1
+ALT.187_00.000,,AYU_PTIM,AYU_PTIM,"Knows exact number of times saw a practitioner for ayurveda, past 12 months",225,1
+ALT.188_00.000,,AYU_TMNO,AYU_TMNO,"Exact number of times saw a practitioner for ayurveda, past 12 months",226 - 227,2
+ALT.189_00.000,,AYU_TMCT,AYU_TMCT,"Approximate number of times saw a practitioner for ayurveda, past 12 months",228 - 229,2
+ALT.190_00.000,,AYU_HIC,AYU_HIC,Any cost of seeing practitioner for ayurveda was covered by insurance,230,1
+ALT.191_00.000,,AYU_HICA,AYU_HICA,Portion of the cost of seeing practitioner for ayurveda covered by insurance,231,1
+ALT.192_00.000,,AYU_HIT,AYU_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for ayurveda,232,1
+ALT.193_00.000,,AYU_HITS,AYU_HITS,Total amount paid out-of-pocket for seeing a practitioner for ayurveda,233 - 237,5
+ALT.194_00.000,,AYU_AVGC,AYU_AVGC,Knows average amount paid out-of-pocket per visit for ayurveda,238,1
+ALT.195_00.000,,AYU_AVGS,AYU_AVGS,Average out-of-pocket cost paid for each ayurveda visit,239 - 241,3
+ALT.196_00.000,,AYU_MAT,AYU_MAT,Bought self-help book or other materials to learn about ayurveda,242,1
+ALT.197_00.000,,AYU_MATC,AYU_MATC,Amount paid for self-help book or other materials to learn about ayurveda,243 - 245,3
+ALT.207_00.000,,CHE_USE,CHE_USE,"Used chelation therapy for health, ever",246,1
+ALT.208_00.000,,CHE_EVER,CHE_EVER,"Saw a practitioner for chelation therapy, ever",247,1
+ALT.209_00.000,,CHE_USEM,CHE_USEM,"Saw a practitioner for chelation therapy, past 12 months",248,1
+ALT.210_00.000,,CHE_USM,CHE_USM,"Used chelation therapy, past 12 months",249,1
+ALT.211_00.000,,CHE_PTIM,CHE_PTIM,"Knows exact number of times saw a practitioner for chelation therapy, past 12 months",250,1
+ALT.212_00.000,,CHE_TMNO,CHE_TMNO,"Exact number of times saw a practitioner for chelation therapy, past 12 months",251 - 252,2
+ALT.213_00.000,,CHE_TMCT,CHE_TMCT,"Approximate number of times saw a practitioner for chelation therapy, past 12 months",253 - 254,2
+ALT.214_00.000,,CHE_HIC,CHE_HIC,Any cost of seeing practitioner for chelation therapy was covered by insurance,255,1
+ALT.215_00.000,,CHE_HICA,CHE_HICA,Portion of the cost of seeing practitioner for chelation therapy covered by insurance,256,1
+ALT.216_00.000,,CHE_HIT,CHE_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for chelation therapy,257,1
+ALT.217_00.000,,CHE_HITS,CHE_HITS,Total amount paid out-of-pocket for seeing a practitioner for chelation therapy,258 - 262,5
+ALT.218_00.000,,CHE_AVGC,CHE_AVGC,Knows average amount paid out-of-pocket per visit for chelation therapy,263,1
+ALT.219_00.000,,CHE_AVGS,CHE_AVGS,Average amount paid out-of-pocket for each chelation therapy visit,264 - 266,3
+ALT.220_00.000,,CHE_MAT,CHE_MAT,Bought self-help book or other materials to learn about chelation therapy,267,1
+ALT.221_00.000,,CHE_MATC,CHE_MATC,Amount paid for self-help book or other materials to learn about chelation therapy,268 - 270,3
+ALT.231_00.000,,CST_USE,CST_USE,"Used craniosacral therapy for health, ever",271,1
+ALT.232_00.000,,CST_EVER,CST_EVER,"Saw a practitioner for craniosacral therapy, ever",272,1
+ALT.233_00.000,,CST_USEM,CST_USEM,"Saw a practitioner for craniosacral therapy, past 12 months",273,1
+ALT.234_00.000,,CST_USM,CST_USM,"Used craniosacral therapy, past 12 months",274,1
+ALT.235_00.000,,CST_PTIM,CST_PTIM,"Knows exact number of times saw a practitioner for craniosacral therapy, past 12 months",275,1
+ALT.236_00.000,,CST_TMNO,CST_TMNO,"Exact number of times saw a practitioner for craniosacral therapy, past 12 months",276 - 277,2
+ALT.237_00.000,,CST_TMCT,CST_TMCT,"Approximate number of times saw a practitioner for craniosacral therapy, past 12 months",278 - 279,2
+ALT.238_00.000,,CST_HIC,CST_HIC,Any cost of seeing practitioner for craniosacral therapy was covered by insurance,280,1
+ALT.239_00.000,,CST_HICA,CST_HICA,Portion of the cost of seeing practitioner for craniosacral therapy covered by insurance,281,1
+ALT.240_00.000,,CST_HIT,CST_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for craniosacral therapy,282,1
+ALT.241_00.000,,CST_HITS,CST_HITS,Total amount paid out-of-pocket for seeing a practitioner for craniosacral therapy,283 - 287,5
+ALT.242_00.000,,CST_AVGC,CST_AVGC,Knows average amount paid out-of-pocket per visit for craniosacral therapy,288,1
+ALT.243_00.000,,CST_AVGS,CST_AVGS,Average out-of-pocket cost paid for each craniosacral therapy visit,289 - 291,3
+ALT.244_00.000,,CST_MAT,CST_MAT,Bought self-help book or other materials to learn about craniosacral therapy,292,1
+ALT.245_00.000,,CST_MATC,CST_MATC,Amount paid for self-help book or other materials to learn about craniosacral therapy,293 - 295,3
+ALT.255_00.000,,TRD_EVR,TRD_EVR,Ever seen a traditional healer,296,1
+ALT.256_01.000,,TRDEVR1-TRDEVR6,TRDEVR1,Ever seen a Native American Healer or Medicine Man,297,1
+ALT.256_02.000,,TRDEVR1-TRDEVR6,TRDEVR2,Ever seen a Shaman,298,1
+ALT.256_03.000,,TRDEVR1-TRDEVR6,TRDEVR3,Ever seen a Curandero or Parchero,299,1
+ALT.256_04.000,,TRDEVR1-TRDEVR6,TRDEVR4,Ever seen a Yerbero or Hierbista,300,1
+ALT.256_05.000,,TRDEVR1-TRDEVR6,TRDEVR5,Ever seen a Sobador,301,1
+ALT.256_06.000,,TRDEVR1-TRDEVR6,TRDEVR6,Ever seen a Huesero,302,1
+ALT.257_00.000,,TRDU_NAH,TRDU_NAH,"Saw a Native American Healer or Medicine Man, past 12 months",303,1
+ALT.258_00.000,,TRDU_SHA,TRDU_SHA,"Saw a Shaman, past 12 months",304,1
+ALT.259_00.000,,TRDU_CUR,TRDU_CUR,"Saw a Curandero or Parchero, past 12 months",305,1
+ALT.260_00.000,,TRDU_YER,TRDU_YER,"Saw a Yerbero or Hierbista, past 12 months",306,1
+ALT.261_00.000,,TRDU_SOB,TRDU_SOB,"Saw a Sobador, past 12 months",307,1
+ALT.262_00.000,,TRDU_HUE,TRDU_HUE,"Saw a Huesero, past 12 months",308,1
+ALT.263_00.000,,TRD_PTIM,TRD_PTIM,"Knows exact number of times saw a traditional healer, past 12 months",309,1
+ALT.264_00.000,,TRD_TMNO,TRD_TMNO,"Exact number of times saw a traditional healer, past 12 months",310 - 311,2
+ALT.265_00.000,,TRD_TMCT,TRD_TMCT,"Approximate number of times saw a traditional healer, past 12 months",312 - 313,2
+ALT.266_00.000,,TRD_HIC,TRD_HIC,Any cost of seeing traditional healer was covered by insurance,314,1
+ALT.267_00.000,,TRD_HICA,TRD_HICA,Portion of the cost of seeing traditional healer covered by insurance,315,1
+ALT.268_00.000,,TRD_HIT,TRD_HIT,Knows total amount paid out-of-pocket for seeing a traditional healer,316,1
+ALT.269_00.000,,TRD_HITS,TRD_HITS,Total amount paid out-of-pocket for seeing a traditional healer,317 - 321,5
+ALT.270_00.000,,TRD_AVGC,TRD_AVGC,Knows average amount paid out-of-pocket per visit to traditional healer,322,1
+ALT.271_00.000,,TRD_AVGS,TRD_AVGS,Average out-of-pocket cost paid for each traditional healer visit,323 - 325,3
+ALT.272_00.000,,TRD_MAT,TRD_MAT,Bought self-help book or other materials to learn about traditional healers,326,1
+ALT.273_00.000,,TRD_MATC,TRD_MATC,Amount paid for self-help book or other materials to learn about traditional healers,327 - 329,3
+ALT.283_00.000,,AVT_USE,AVT_USE,Ever taken multi-vitamins or multi-minerals,330,1
+ALT.284_00.000,,AVT_USM,AVT_USM,Taken multi-vitamins or multi-minerals in past 12 months,331,1
+ALT.285_00.000,,AVT_ABEV,AVT_ABEV,"Ever taken vitamins A, B, C, D, E, H, or K",332,1
+ALT.286_00.000,,AVT_ABUM,AVT_ABUM,"Taken vitamins A,B,C,D,E,H, or K in past 12 months",333,1
+ALT.287_00.000,,AVT_CAEV,AVT_CAEV,"Ever taken calcium, magnesium, iron, chromium, zinc, selenium, or potassium",334,1
+ALT.288_00.000,,AVT_CAUM,AVT_CAUM,"Taken calcium, magnesium, iron, chromium, zinc, selenium, or potassium in past 12 months",335,1
+ALT.298_00.000,,AHB_EVR,AHB_EVR,Ever taken any herbal or other non-vitamin supplements,336,1
+ALT.299_00.000,,AHB_USM,AHB_USM,Taken any herbal or other non-vitamin supplements in past 12 months,337,1
+ALT.300_01.000,,AHBLST01-AHBLST22,AHBLST01,"Taken combination herb pill, past 12 months",338,1
+ALT.300_02.000,,AHBLST01-AHBLST22,AHBLST02,"Taken acai pills or gelcaps, past 12 months",339,1
+ALT.300_03.000,,AHBLST01-AHBLST22,AHBLST03,"Taken bee pollen (or other bee products), past 12 months",340,1
+ALT.300_04.000,,AHBLST01-AHBLST22,AHBLST04,"Taken chondroitin, past 12 months",341,1
+ALT.300_05.000,,AHBLST01-AHBLST22,AHBLST05,"Taken Co-enzyme Q10 (CoQ10), past 12 months",342,1
+ALT.300_06.000,,AHBLST01-AHBLST22,AHBLST06,"Taken cranberry pills or capsules, past 12 months",343,1
+ALT.300_07.000,,AHBLST01-AHBLST22,AHBLST07,"Taken digestive enzymes (lactaid), past 12 months",344,1
+ALT.300_08.000,,AHBLST01-AHBLST22,AHBLST08,"Taken echinacea, past 12 months",345,1
+ALT.300_09.000,,AHBLST01-AHBLST22,AHBLST09,"Taken fish oil (or omega 3, DHA, or EPA fatty acid) supplements, past 12 months",346,1
+ALT.300_10.000,,AHBLST01-AHBLST22,AHBLST10,"Taken garlic supplements, past 12 months",347,1
+ALT.300_11.000,,AHBLST01-AHBLST22,AHBLST11,"Taken Ginkgo Biloba, past 12 months",348,1
+ALT.300_12.000,,AHBLST01-AHBLST22,AHBLST12,"Taken Ginseng, past 12 months",349,1
+ALT.300_13.000,,AHBLST01-AHBLST22,AHBLST13,"Taken glucosamine, past 12 months",350,1
+ALT.300_14.000,,AHBLST01-AHBLST22,AHBLST14,"Taken green tea pills or EGCG pills, past 12 months",351,1
+ALT.300_15.000,,AHBLST01-AHBLST22,AHBLST15,"Taken melatonin, past 12 months",352,1
+ALT.300_16.000,,AHBLST01-AHBLST22,AHBLST16,"Taken milk thistle (silymarin), past 12 months",353,1
+ALT.300_17.000,,AHBLST01-AHBLST22,AHBLST17,"Taken MSM (Methylsulfonylmethane), past 12 months",354,1
+ALT.300_18.000,,AHBLST01-AHBLST22,AHBLST18,"Taken probiotics or prebiotics, past 12 months",355,1
+ALT.300_19.000,,AHBLST01-AHBLST22,AHBLST19,"Taken SAM-e, past 12 months",356,1
+ALT.300_20.000,,AHBLST01-AHBLST22,AHBLST20,"Taken saw palmetto, past 12 months",357,1
+ALT.300_21.000,,AHBLST01-AHBLST22,AHBLST21,"Taken valerian, past 12 months",358,1
+ALT.300_22.000,,AHBLST01-AHBLST22,AHBLST22,"Taken other herbs or non-vitamin supplements, past 12 months",359,1
+ALT.301_00.000,,AHB_MON,AHB_MON,Has taken any specific herbs or other non-vitamin supplements in past 30 days,360,1
+ALT.302_01.000,,AHBLSM01-AHBLSM22,AHBLSM01,"Taken combination herb pill, past 30 days",361,1
+ALT.302_02.000,,AHBLSM01-AHBLSM22,AHBLSM02,"Taken acai pills or gelcaps, past 30 days",362,1
+ALT.302_03.000,,AHBLSM01-AHBLSM22,AHBLSM03,"Taken bee pollen (or other bee products), past 30 days",363,1
+ALT.302_04.000,,AHBLSM01-AHBLSM22,AHBLSM04,"Taken chondroitin, past 30 days",364,1
+ALT.302_05.000,,AHBLSM01-AHBLSM22,AHBLSM05,"Taken co-enzyme Q10 (CoQ10), past 30 days",365,1
+ALT.302_06.000,,AHBLSM01-AHBLSM22,AHBLSM06,"Taken cranberry pills or capsules, past 30 days",366,1
+ALT.302_07.000,,AHBLSM01-AHBLSM22,AHBLSM07,"Taken digestive enzymes (lactaid), past 30 days",367,1
+ALT.302_08.000,,AHBLSM01-AHBLSM22,AHBLSM08,"Taken echinacea, past 30 days",368,1
+ALT.302_09.000,,AHBLSM01-AHBLSM22,AHBLSM09,"Taken fish oil (or omega 3, DHA, or EPA fatty acid) supplements, past 30 days",369,1
+ALT.302_10.000,,AHBLSM01-AHBLSM22,AHBLSM10,"Taken garlic supplements, past 30 days",370,1
+ALT.302_11.000,,AHBLSM01-AHBLSM22,AHBLSM11,"Taken ginkgo biloba, past 30 days",371,1
+ALT.302_12.000,,AHBLSM01-AHBLSM22,AHBLSM12,"Taken ginseng, past 30 days",372,1
+ALT.302_13.000,,AHBLSM01-AHBLSM22,AHBLSM13,"Taken glucosamine, past 30 days",373,1
+ALT.302_14.000,,AHBLSM01-AHBLSM22,AHBLSM14,"Taken green tea pills or EGCG pills, past 30 days",374,1
+ALT.302_15.000,,AHBLSM01-AHBLSM22,AHBLSM15,"Taken melatonin, past 30 days",375,1
+ALT.302_16.000,,AHBLSM01-AHBLSM22,AHBLSM16,"Taken milk thistle (silymarin), past 30 days",376,1
+ALT.302_17.000,,AHBLSM01-AHBLSM22,AHBLSM17,"Taken MSM (methylsulfonylmethane), past 30 days",377,1
+ALT.302_18.000,,AHBLSM01-AHBLSM22,AHBLSM18,"Taken probiotics or prebiotics, past 30 days",378,1
+ALT.302_19.000,,AHBLSM01-AHBLSM22,AHBLSM19,"Taken SAM-e, past 30 days",379,1
+ALT.302_20.000,,AHBLSM01-AHBLSM22,AHBLSM20,"Taken saw palmetto, past 30 days",380,1
+ALT.302_21.000,,AHBLSM01-AHBLSM22,AHBLSM21,"Taken valerian, past 30 days",381,1
+ALT.302_22.000,,AHBLSM01-AHBLSM22,AHBLSM22,"Taken other herb or non-vitamin supplement, past 30 days",382,1
+ALT.303_00.000,,AHB_CHPN,AHB_CHPN,Number of different combination herb pills taken,383 - 384,2
+ALT.304_02.000,,AHBCP102-AHBCP122,AHBCP102,First combination herb pill taken included: acai,385,1
+ALT.304_03.000,,AHBCP102-AHBCP122,AHBCP103,First combination herb pill taken included: bee pollen or other bee products,386,1
+ALT.304_04.000,,AHBCP102-AHBCP122,AHBCP104,First combination herb pill taken included: chondroitin,387,1
+ALT.304_05.000,,AHBCP102-AHBCP122,AHBCP105,First combination herb pill taken included: co-enzyme Q10 (CoQ10),388,1
+ALT.304_06.000,,AHBCP102-AHBCP122,AHBCP106,First combination herb pill taken included: cranberry,389,1
+ALT.304_07.000,,AHBCP102-AHBCP122,AHBCP107,First combination herb pill taken included: digestive enzymes,390,1
+ALT.304_08.000,,AHBCP102-AHBCP122,AHBCP108,First combination herb pill taken included: echinacea,391,1
+ALT.304_09.000,,AHBCP102-AHBCP122,AHBCP109,"First combination herb pill taken included: fish oil (or omega 3, DHA, or EPA fatty acid)",392,1
+ALT.304_10.000,,AHBCP102-AHBCP122,AHBCP110,First combination herb pill taken included: garlic,393,1
+ALT.304_11.000,,AHBCP102-AHBCP122,AHBCP111,First combination herb pill taken included: ginkgo biloba,394,1
+ALT.304_12.000,,AHBCP102-AHBCP122,AHBCP112,First combination herb pill taken included: ginseng,395,1
+ALT.304_13.000,,AHBCP102-AHBCP122,AHBCP113,First combination herb pill taken included: glucosamine,396,1
+ALT.304_14.000,,AHBCP102-AHBCP122,AHBCP114,First combination herb pill taken included: green tea or EGCG,397,1
+ALT.304_15.000,,AHBCP102-AHBCP122,AHBCP115,First combination herb pill taken included: melatonin,398,1
+ALT.304_16.000,,AHBCP102-AHBCP122,AHBCP116,First combination herb pill taken included: milk thistle (silymarin),399,1
+ALT.304_17.000,,AHBCP102-AHBCP122,AHBCP117,First combination herb pill taken included: MSM (methylsulfonylmethane),400,1
+ALT.304_18.000,,AHBCP102-AHBCP122,AHBCP118,First combination herb pill taken included: probiotics or prebiotics,401,1
+ALT.304_19.000,,AHBCP102-AHBCP122,AHBCP119,First combination herb pill taken included: SAM-e,402,1
+ALT.304_20.000,,AHBCP102-AHBCP122,AHBCP120,First combination herb pill taken included: saw palmetto,403,1
+ALT.304_21.000,,AHBCP102-AHBCP122,AHBCP121,First combination herb pill taken included: valerian,404,1
+ALT.304_22.000,,AHBCP102-AHBCP122,AHBCP122,First combination herb pill taken included: other herbs or non-vitamin supplements,405,1
+ALT.305_02.000,,AHBCP202-AHBCP222,AHBCP202,Second combination herb pill taken included: acai,406,1
+ALT.305_03.000,,AHBCP202-AHBCP222,AHBCP203,Second combination herb pill taken included: bee pollen or other bee products,407,1
+ALT.305_04.000,,AHBCP202-AHBCP222,AHBCP204,Second combination herb pill taken included: chondroitin,408,1
+ALT.305_05.000,,AHBCP202-AHBCP222,AHBCP205,Second combination herb pill taken included: co-enzyme Q10 (CoQ10),409,1
+ALT.305_06.000,,AHBCP202-AHBCP222,AHBCP206,Second combination herb pill taken included: cranberry,410,1
+ALT.305_07.000,,AHBCP202-AHBCP222,AHBCP207,Second combination herb pill taken included: digestive enzymes,411,1
+ALT.305_08.000,,AHBCP202-AHBCP222,AHBCP208,Second combination herb pill taken included: echinacea,412,1
+ALT.305_09.000,,AHBCP202-AHBCP222,AHBCP209,"Second combination herb pill taken included: fish oil (or omega 3, DHA, or EPA fatty acid)",413,1
+ALT.305_10.000,,AHBCP202-AHBCP222,AHBCP210,Second combination herb pill taken included: garlic,414,1
+ALT.305_11.000,,AHBCP202-AHBCP222,AHBCP211,Second combination herb pill taken included: ginkgo biloba,415,1
+ALT.305_12.000,,AHBCP202-AHBCP222,AHBCP212,Second combination herb pill taken included: ginseng,416,1
+ALT.305_13.000,,AHBCP202-AHBCP222,AHBCP213,Second combination herb pill taken included: glucosamine,417,1
+ALT.305_14.000,,AHBCP202-AHBCP222,AHBCP214,Second combination herb pill taken included: green tea or EGCG,418,1
+ALT.305_15.000,,AHBCP202-AHBCP222,AHBCP215,Second combination herb pill taken included: melatonin,419,1
+ALT.305_16.000,,AHBCP202-AHBCP222,AHBCP216,Second combination herb pill taken included: milk thistle (silymarin),420,1
+ALT.305_17.000,,AHBCP202-AHBCP222,AHBCP217,Second combination herb pill taken included: MSM (methylsulfonylmethane),421,1
+ALT.305_18.000,,AHBCP202-AHBCP222,AHBCP218,Second combination herb pill taken included: probiotics or prebiotics,422,1
+ALT.305_19.000,,AHBCP202-AHBCP222,AHBCP219,Second combination herb pill taken included: SAM-e,423,1
+ALT.305_20.000,,AHBCP202-AHBCP222,AHBCP220,Second combination herb pill taken included: saw palmetto,424,1
+ALT.305_21.000,,AHBCP202-AHBCP222,AHBCP221,Second combination herb pill taken included: valerian,425,1
+ALT.305_22.000,,AHBCP202-AHBCP222,AHBCP222,Second combination herb pill taken included: other herbs or non-vitamin supplements,426,1
+ALT.306_00.000,,AHB_MOTH,AHB_MOTH,"Number of other herbs or non-vitamin supplements taken, past 30 days",427 - 428,2
+ALT.307_01.000,,AHB_LU1C,AHB_LU1C,"Name of the first herb or non-vitamin supplement taken, past 30 days",429 - 431,3
+ALT.308_01.000,,AHB_LU2C,AHB_LU2C,"Name of the second herb or non-vitamin supplement taken, past 30 days",432 - 434,3
+ALT.310_00.000,,AHB_TP21,AHB_TP21,First of the top two herbal supplements taken most often,435 - 436,2
+ALT.311_00.000,,AHB_TP22,AHB_TP22,Second of the top two herbal supplements taken most often,437 - 438,2
+ALT.312_00.000,,AHB_EVR1,AHB_EVR1,Ever seen a practitioner for herbs or other non-vitamin supplements,439,1
+ALT.313_00.000,,AHB_USE1,AHB_USE1,"Saw a practitioner for herbs or other non-vitamin supplements, past 12 months",440,1
+ALT.314_00.000,,AVT_BOFN,AVT_BOFN,"Number of times per week, month, or year bought vitamins and minerals",441 - 443,3
+ALT.315_00.000,,AVT_BOFT,AVT_BOFT,Time period for how often vitamins and minerals were bought,444,1
+ALT.316_00.000,,AVT_CST1,AVT_CST1,Approximate cost paid for last purchase of vitamins or minerals,445 - 448,4
+ALT.317_00.000,,AHB_BOFN,AHB_BOFN,"Number of times per week, month, or year bought herbs or other non-vitamin supplements",449 - 451,3
+ALT.318_00.000,,AHB_BOFT,AHB_BOFT,Time period for how often herbs or other non-vitamin supplements were bought,452,1
+ALT.319_00.000,,AHB_CST1,AHB_CST1,Approximate cost paid for last purchase of vitamins or minerals,453 - 456,4
+ALT.320_00.000,,AHB_PTIM,AHB_PTIM,"Knows exact number of times saw a practitioner for herbs or other non-vitamin supplements, past 12 months",457,1
+ALT.321_00.000,,AHB_TMNO,AHB_TMNO,"Exact number of times saw a practitioner for herbs or other non-vitamin supplements, past 12 months",458 - 459,2
+ALT.322_00.000,,AHB_TMCT,AHB_TMCT,"Approximate number of times saw a practitioner for herbs or other non-vitamin supplements, past 12 months",460 - 461,2
+ALT.323_00.000,,AHB_HIC,AHB_HIC,Any cost of seeing a practitioner for herbs or other non-vitamin supplements was covered by insurance,462,1
+ALT.324_00.000,,AHB_HICA,AHB_HICA,Portion of the cost of seeing practitioner for herbs or other non-vitamin supplements covered by insurance,463,1
+ALT.325_00.000,,AHB_HIT,AHB_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for herbs or other non-vitamin supplements,464,1
+ALT.326_00.000,,AHB_HITS,AHB_HITS,Total amount paid out-of-pocket for seeing a practitioner for herbs or other non-vitamin supplements,465 - 469,5
+ALT.327_00.000,,AHB_AVGC,AHB_AVGC,Knows average amount paid out-of-pocket per visit for herbs or other non-vitamin supplements,470,1
+ALT.328_00.000,,AHB_AVGS,AHB_AVGS,Average out-of-pocket cost paid for each visit for herbs or other non-vitamin supplements,471 - 473,3
+ALT.329_00.000,,AHB_MAT,AHB_MAT,Bought self-help book or other materials to learn about herbs or other non-vitamin supplements,474,1
+ALT.330_00.000,,AHB_MATC,AHB_MATC,Amount paid for self-help book or other materials to learn about herbs or other non-vitamin supplements,475 - 477,3
+ALT.340_00.000,,HOM_USE,HOM_USE,"Used homeopathy for health, ever",478,1
+ALT.341_00.000,,HOM_USM,HOM_USM,"Used homeopathy for health, past 12 months",479,1
+ALT.342_00.000,,HOM_OFTN,HOM_OFTN,"Number of times per week, month, or year bought homeopathic medicine",480 - 482,3
+ALT.343_00.000,,HOM_OFTT,HOM_OFTT,Time period for how often homeopathic medicine was bought,483,1
+ALT.344_00.000,,HOM_COST,HOM_COST,Approximate cost paid for last purchase of homeopathic medicine,484 - 487,4
+ALT.345_00.000,,HOM_EVER,HOM_EVER,"Saw a practitioner for homeopathy, ever",488,1
+ALT.346_00.000,,HOM_USEM,HOM_USEM,"Saw a practitioner for homeopathy, past 12 months",489,1
+ALT.347_00.000,,HOM_PTIM,HOM_PTIM,"Knows exact number of times saw a practitioner for homeopathy, past 12 months",490,1
+ALT.348_00.000,,HOM_TMNO,HOM_TMNO,"Exact number of times saw a practitioner for homeopathy, past 12 months",491 - 492,2
+ALT.349_00.000,,HOM_TMCT,HOM_TMCT,"Approximate number of times saw a practitioner for homeopathy, past 12 months",493 - 494,2
+ALT.350_00.000,,HOM_HIC,HOM_HIC,Any cost of seeing practitioner for homeopathy was covered by insurance,495,1
+ALT.351_00.000,,HOM_HICA,HOM_HICA,Portion of the cost of seeing practitioner for homeopathy covered by insurance,496,1
+ALT.352_00.000,,HOM_HIT,HOM_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for homeopathy,497,1
+ALT.353_00.000,,HOM_HITS,HOM_HITS,Total amount paid out-of-pocket for seeing a practitioner for homeopathy,498 - 502,5
+ALT.354_00.000,,HOM_AVGC,HOM_AVGC,Knows average amount paid out-of-pocket per visit for homeopathy,503,1
+ALT.355_00.000,,HOM_AVGS,HOM_AVGS,Average out-of-pocket cost paid for each homeopathy visit,504 - 506,3
+ALT.356_00.000,,HOM_MAT,HOM_MAT,Bought self-help book or other materials to learn about homeopathy,507,1
+ALT.357_00.000,,HOM_MATC,HOM_MATC,Amount paid for self-help book or other materials to learn about homeopathy,508 - 510,3
+ALT.367_00.000,,MBO_USE,MBO_USE,"Used meditation, guided imagery, or progressive relaxation for health, ever",511,1
+ALT.368_00.000,,MBOE_MAN,MBOE_MAN,Ever used mantra meditation,512,1
+ALT.369_00.000,,MBOE_MND,MBOE_MND,Ever used mindfulness meditation,513,1
+ALT.370_00.000,,MBOE_SPR,MBOE_SPR,Ever used spiritual meditation,514,1
+ALT.371_00.000,,MBOE_IMG,MBOE_IMG,Ever used guided imagery,515,1
+ALT.372_00.000,,MBOE_PRO,MBOE_PRO,Ever used progressive relaxation,516,1
+ALT.373_00.000,,MBOU_MAN,MBOU_MAN,"Used mantra meditation, past 12 months",517,1
+ALT.374_00.000,,MBOU_MND,MBOU_MND,"Used mindfulness meditation, past 12 months",518,1
+ALT.375_00.000,,MBOU_SPR,MBOU_SPR,"Used spiritual meditation, past 12 months",519,1
+ALT.376_00.000,,MBOU_IMG,MBOU_IMG,"Used guided imagery, past 12 months",520,1
+ALT.377_00.000,,MBOU_PRO,MBOU_PRO,"Used progressive relaxation, past 12 months",521,1
+ALT.377_00.010,,MBO_CNT,MBO_CNT,Count variable for mind-body therapy,522 - 524,3
+ALT.378_00.000,,MBO_MST1,MBO_MST1,"Type of mind-body therapy used the most, past 12 months",525,1
+ALT.379_00.000,,MBO_BRTH,MBO_BRTH,Did breathing exercises as part of mind-body therapy,526,1
+ALT.380_00.000,,MBO_USEM,MBO_USEM,"Saw a practitioner for mind-body therapy, past 12 months",527,1
+ALT.381_00.000,,MBO_PTIM,MBO_PTIM,"Knows exact number of times saw practitioner for mind-body therapy, past 12 months",528,1
+ALT.382_00.000,,MBO_TMNO,MBO_TMNO,"Exact number of times saw practitioner for mind-body therapy, past 12 months",529 - 530,2
+ALT.383_00.000,,MBO_TMCT,MBO_TMCT,"Approximate number of times saw practitioner for mind-body therapy, past 12 months",531 - 532,2
+ALT.384_00.000,,MBO_HIC,MBO_HIC,Any cost of seeing a practitioner or taking a class for mind-body therapy was covered by insurance,533,1
+ALT.385_00.000,,MBO_HICA,MBO_HICA,Portion of the cost of seeing a practitioner or taking a class for mind-body therapy covered by insurance,534,1
+ALT.386_00.000,,MBO_HIT,MBO_HIT,Knows total amount paid out-of-pocket for seeing a practitioner or taking a class for mind-body therapy,535,1
+ALT.387_00.000,,MBO_HITS,MBO_HITS,Total amount paid out-of-pocket for seeing a practitioner or taking a class for mind-body therapy,536 - 540,5
+ALT.388_00.000,,MBO_AVGC,MBO_AVGC,Knows average amount paid out-of-pocket per visit or class for mind-body therapy,541,1
+ALT.389_00.000,,MBO_AVGS,MBO_AVGS,Average amount paid out-of-pocket per visit or class for mind-body therapy,542 - 544,3
+ALT.390_00.000,,MBO_MAT,MBO_MAT,Bought self-help book or other material to learn about mind-body therapy,545,1
+ALT.391_00.000,,MBO_MATC,MBO_MATC,Amount paid for self-help book or other material to learn about mind-body therapy,546 - 548,3
+ALT.401_00.000,,YTQE_YOG,YTQE_YOG,Ever practiced yoga,549,1
+ALT.402_00.000,,YTQE_TAI,YTQE_TAI,Ever practiced tai chi,550,1
+ALT.403_00.000,,YTQE_QIG,YTQE_QIG,Ever practiced qi gong,551,1
+ALT.404_00.000,,YTQU_YOG,YTQU_YOG,"Practiced yoga, past 12 months",552,1
+ALT.405_00.000,,YTQU_TAI,YTQU_TAI,"Practiced tai chi, past 12 months",553,1
+ALT.406_00.000,,YTQU_QIG,YTQU_QIG,"Practiced qi gong, past 12 months",554,1
+ALT.407_00.010,,YTQ_BTHY,YTQ_BTHY,Does breathing exercises as part of yoga,555,1
+ALT.408_00.020,,YTQ_BTHT,YTQ_BTHT,Does breathing exercises as part of tai chi,556,1
+ALT.409_00.030,,YTQ_BTHQ,YTQ_BTHQ,Does breathing exercises as part of qi gong,557,1
+ALT.410_00.010,,YTQ_MEDY,YTQ_MEDY,Does meditation as part of yoga,558,1
+ALT.411_00.020,,YTQ_MEDT,YTQ_MEDT,Does meditation as part of tai chi,559,1
+ALT.412_00.030,,YTQ_MEDQ,YTQ_MEDQ,Does meditation as part of qi gong,560,1
+ALT.412_00.040,,YTQ_CNT,YTQ_CNT,Number of yoga/tai chi/qi gong therapies used,561 - 563,3
+ALT.413_00.000,,YTQ_MOST,YTQ_MOST,"Type of exercise practiced the most, past 12 months",564,1
+ALT.414_00.000,,YTQ_USEM,YTQ_USEM,"Took a class or received formal training for yoga/tai chi/qi gong, past 12 months",565,1
+ALT.415_00.000,,YTQ_PTIM,YTQ_PTIM,"Knows exact number of times saw an instructor for yoga/tai chi/qi gong, past 12 months",566,1
+ALT.416_00.000,,YTQ_TMNO,YTQ_TMNO,"Exact number of times saw an instructor for yoga/tai chi/qi gong, past 12 months",567 - 568,2
+ALT.417_00.000,,YTQ_TMCT,YTQ_TMCT,"Approximate number of times saw an instructor for yoga/tai chi/qi gong, past 12 months",569 - 570,2
+ALT.418_00.000,,YTQ_HIC,YTQ_HIC,Any cost of seeing an instructor for yoga/tai chi/qi gong was covered by insurance,571,1
+ALT.419_00.000,,YTQ_HICA,YTQ_HICA,Portion of the cost of seeing an instructor for yoga/tai chi/qi gong covered by insurance,572,1
+ALT.420_00.000,,YTQ_HIT,YTQ_HIT,Knows total amount paid out-of-pocket for seeing an instructor for yoga/tai chi/qi gong,573,1
+ALT.421_00.000,,YTQ_HITS,YTQ_HITS,Total amount paid out-of-pocket for seeing an instructor for yoga/tai chi/qi gong,574 - 578,5
+ALT.422_00.000,,YTQ_AVGC,YTQ_AVGC,Knows average amount paid out-of-pocket per visit for seeing an instructor for yoga/tai chi/qi gong,579,1
+ALT.423_00.000,,YTQ_AVGS,YTQ_AVGS,Average amount paid out-of-pocket per visit for seeing an instructor for yoga/tai chi/qi gong,580 - 582,3
+ALT.424_00.000,,YTQ_MAT,YTQ_MAT,Bought self-help book or other material to learn about yoga/tai chi/qi gong,583,1
+ALT.425_00.000,,YTQ_MATC,YTQ_MATC,Amount paid for self-help book or other material to learn about yoga/tai chi/qi gong,584 - 586,3
+ALT.435_00.000,,DITE_VEG,DITEVER1,Ever used vegetarian (including vegan) diet for two weeks or more for health reasons,587,1
+ALT.436_00.000,,DITEVER2,DITEVER2,Ever used macrobiotic diet for two weeks or more for health reasons,588,1
+ALT.437_00.000,,DITEVER3,DITEVER3,Ever used atkins diet for two weeks or more for health reasons,589,1
+ALT.438_00.000,,DITEVER4,DITEVER4,Ever used pritikin diet for two weeks or more for health reasons,590,1
+ALT.439_00.000,,DITEVER5,DITEVER5,Ever used ornish diet for two weeks or more for health reasons,591,1
+ALT.440_00.000,,DIT_USM1,DIT_USM1,"Used vegetarian diet for two weeks or more for health reasons, past 12 months",592,1
+ALT.441_00.000,,DIT_USM2,DIT_USM2,"Used macrobiotic diet for two weeks or more for health reasons, past 12 months",593,1
+ALT.442_00.000,,DIT_USM3,DIT_USM3,"Used atkins diet for two weeks or more for health reasons, past 12 months",594,1
+ALT.443_00.000,,DIT_USM4,DIT_USM4,"Used pritikin diet for two weeks or more for health reasons, past 12 months",595,1
+ALT.444_00.000,,DIT_USM5,DIT_USM5,"Used ornish diet for two weeks or more for health reasons, past 12 months",596,1
+ALT.445_00.000,,DIT_WGT1,DIT_WGT1,Used special diets for weight control or weight loss,597,1
+ALT.446_00.000,,DIT_PRE,DIT_PRE,Ever saw a practitioner for special diets,598,1
+ALT.447_00.000,,DIT_PRU,DIT_PRU,"Saw a practitioner for special diets, past 12 months",599,1
+ALT.448_00.000,,DIT_PTIM,DIT_PTIM,"Knows exact number of times saw a practitioner for special diets, past 12 months",600,1
+ALT.449_00.000,,DIT_TMNO,DIT_TMNO,"Exact number of times saw a practitioner for special diets, past 12 months",601 - 602,2
+ALT.450_00.000,,DIT_TMCT,DIT_TMCT,"Approximate number of times saw a practitioner for special diets, past 12 months",603 - 604,2
+ALT.451_00.000,,DIT_HIC,DIT_HIC,Any cost of seeing practitioner for special diets was covered by insurance,605,1
+ALT.452_00.000,,DIT_HICA,DIT_HICA,Portion of the cost of seeing practitioner for special diets covered by insurance,606,1
+ALT.453_00.000,,DIT_HIT,DIT_HIT,Knows total amount paid out-of-pocket for seeing a practitioner for special diets,607,1
+ALT.454_00.000,,DIT_HITS,DIT_HITS,Total amount paid out-of-pocket for seeing a practitioner for special diets,608 - 612,5
+ALT.455_00.000,,DIT_AVGC,DIT_AVGC,Knows average amount paid out-of-pocket per visit for seeing a practitioner for special diets,613,1
+ALT.456_00.000,,DIT_AVGS,DIT_AVGS,Average amount paid out-of-pocket per visit for seeing a practitioner for special diets,614 - 616,3
+ALT.457_00.000,,DIT_MAT,DIT_MAT,Bought self-help book or other materials to learn about special diets,617,1
+ALT.458_00.000,,DIT_MATC,DIT_MATC,Amount paid for self-help book or other materials to learn about special diets,618 - 620,3
+ALT.468_00.000,,MOVE_FLD,MOVE_FLD,Ever practiced Feldenkrais,621,1
+ALT.469_00.000,,MOVE_ALX,MOVE_ALX,Ever practiced Alexander Technique,622,1
+ALT.470_00.000,,MOVE_PIL,MOVE_PIL,Ever practiced Pilates,623,1
+ALT.471_00.000,,MOVE_TPI,MOVE_TPI,Ever practiced Trager Psychophysical Integration,624,1
+ALT.472_00.000,,MOVP_FLD,MOVP_FLD,Ever seen a practitioner for Feldenkrais,625,1
+ALT.473_00.000,,MOVP_ALX,MOVP_ALX,Ever seen a practitioner for Alexander Technique,626,1
+ALT.474_00.000,,MOVP_PIL,MOVP_PIL,Ever seen a practitioner for Pilates,627,1
+ALT.475_00.000,,MOVP_TPI,MOVP_TPI,Ever seen a practitioner for Trager Psychophysical Integration,628,1
+ALT.476_00.000,,MOV_FLD,MOV_FLD,"Saw a practitioner for Feldnekrais, past 12 months",629,1
+ALT.477_00.000,,MOV_ALX,MOV_ALX,"Saw a practitioner for Alexander Technique, past 12 months",630,1
+ALT.478_00.000,,MOV_PIL,MOV_PIL,"Saw a practitioner for Pilates, past 12 months",631,1
+ALT.479_00.000,,MOV_TPI,MOV_TPI,"Saw a practitioner for Trager Psychophysical Integration, past 12 months",632,1
+ALT.480_00.000,,MOVU_FLD,MOVU_FLD,"Used Feldenkrais, past 12 months",633,1
+ALT.481_00.000,,MOVU_ALX,MOVU_ALX,"Used Alexander Technique, past 12 months",634,1
+ALT.482_00.000,,MOVU_PIL,MOVU_PIL,"Used Pilates, past 12 months",635,1
+ALT.483_00.000,,MOVU_TPI,MOVU_TPI,"Used Trager Psychophysical Integration, past 12 months",636,1
+ALT.484_00.000,,MOV_PTIM,MOV_PTIM,"Knows exact number of times saw practitioner/teacher for movement and exercise techniques, past 12 months",637,1
+ALT.485_00.000,,MOV_TMNO,MOV_TMNO,Exact number of times saw practitioner/teacher for movement and exercise,638 - 639,2
+ALT.486_00.000,,MOV_TMCT,MOV_TMCT,"Approximate number of times saw practitioner/teacher for movement and exercise techniques, past 12 months",640 - 641,2
+ALT.487_00.000,,MOV_HIC,MOV_HIC,Any cost of seeing a practitioner/teacher for movement and exercise techniques was covered by insurance,642,1
+ALT.488_00.000,,MOV_HICA,MOV_HICA,Portion of the cost of seeing a practitioner/teacher for movement and exercise techniques covered by insurance,643,1
+ALT.489_00.000,,MOV_HIT,MOV_HIT,Knows total amount paid out-of-pocket for seeing a practitioner/teacher for movement and exercise techniques,644,1
+ALT.490_00.000,,MOV_HITS,MOV_HITS,Total amount paid out-of-pocket for seeing a practitioner/teacher for movement and exercise techniques,645 - 649,5
+ALT.491_00.000,,MOV_AVGC,MOV_AVGC,Knows average amount paid out-of-pocket per visit for seeing a practitioner/teacher for movement and exercise techniques,650,1
+ALT.492_00.000,,MOV_AVGS,MOV_AVGS,Average amount paid out-of-pocket per visit for seeing a practitioner/teacher for movement and exercise techniques,651 - 653,3
+ALT.493_00.000,,MOV_MAT,MOV_MAT,Bought self-help book or other materials to learn about movement and exercise techniques,654,1
+ALT.494_00.000,,MOV_MATC,MOV_MATC,Amount paid for self-help book or other materials to learn about movement and exercise techniques,655 - 657,3
+ALT.500_00.000,,ALT_CNT,ALT_CNT,Count variable for number of complementary and alternative therapies used,658 - 659,2
+ALT.505_00.000,,ALT_TP31,ALT_TP31,First of top 3 most important therapies,660 - 661,2
+ALT.506_00.000,,ALT_TP32,ALT_TP32,Second of top 3 most important therapies,662 - 663,2
+ALT.507_00.000,,ALT_TP33,ALT_TP33,Third of top 3 most important therapies,664 - 665,2
+ALT.510_00.000,,TP1_REA1,TP1_REA1,Used/saw practitioner for first top therapy: for general wellness or general disease prevention,666,1
+ALT.511_00.000,,TP1_REA2,TP1_REA2,Used/saw practitioner for first top therapy: to improve energy,667,1
+ALT.512_00.000,,TP1_REA3,TP1_REA3,Used/saw practitioner for first top therapy: to improve immune function,668,1
+ALT.513_00.000,,TP1_REA4,TP1_REA4,Used/saw practitioner for first top therapy: to improve athletic or sports performance,669,1
+ALT.514_00.000,,TP1_REA5,TP1_REA5,Used/saw practitioner for first top therapy: to improve memory or concentration,670,1
+ALT.515_00.000,,TP1_MOT1,TP1_MOT1,Using/seeing practitioner for first top therapy was motivation to: eat healthier,671,1
+ALT.516_00.000,,TP1_MOT2,TP1_MOT2,Using/seeing practitioner for first top therapy was motivation to: eat more organic foods,672,1
+ALT.517_00.000,,TP1_MOT3,TP1_MOT3,Using/seeing practitioner for first top therapy was motivation to: cut back or stop drinking alcohol,673,1
+ALT.518_00.000,,TP1_MOT4,TP1_MOT4,Using/seeing practitioner for first top therapy was motivation to: cut back or stop smoking cigarettes,674,1
+ALT.519_00.000,,TP1_MOT5,TP1_MOT5,Using/seeing practitioner for first top therapy was motivation to: exercise more regularly,675,1
+ALT.520_00.000,,TP1_OUT1,TP1_OUT1,Using/seeing practitioner for first top therapy: gave a sense of control over one's health,676,1
+ALT.521_00.000,,TP1_OUT2,TP1_OUT2,Using/seeing practitioner for first top therapy led to: reduced stress level or relaxation,677,1
+ALT.522_00.000,,TP1_OUT3,TP1_OUT3,Using/seeing practitioner for first top therapy led to: better sleep,678,1
+ALT.523_00.000,,TP1_OUT4,TP1_OUT4,Using/seeing practitioner for first therapy led to: feeling better emotionally,679,1
+ALT.524_00.000,,TP1_OUT5,TP1_OUT5,Using/seeing practitioner for first top therapy led to: made it easier to cope with health problems,680,1
+ALT.525_00.000,,TP1_OUT6,TP1_OUT6,Using/seeing practitioner for first top therapy led to: improved overall health and feeling better,681,1
+ALT.526_00.000,,TP1_OUT7,TP1_OUT7,Using/seeing practitioner for first top therapy led to: improved relationships with others,682,1
+ALT.527_00.000,,TP1_OUT8,TP1_OUT8,Using/seeing practitioner for first top therapy led to: improved attendance at job or school,683,1
+ALT.528_00.000,,TP1_MOST,TP1_MOST,Most important reason for using first top therapy,684 - 685,2
+ALT.529_00.000,,TP1_HELP,TP1_HELP,How much first top therapy helped with the most important reason for its use,686,1
+ALT.530_00.000,,TP1_TRET,TP1_TRET,Used first top therapy for specific health problem(s),687,1
+ALT.531_01.000,,TP1CND01-TP1CND86,TP1CND01,Used first top therapy for: abdominal pain,688,1
+ALT.531_02.000,,TP1CND01-TP1CND86,TP1CND02,Used first top therapy for: acid reflux or heartburn,689,1
+ALT.531_03.000,,TP1CND01-TP1CND86,TP1CND03,"Used first top therapy for: feeling anxious, nervous, or worried",690,1
+ALT.531_04.000,,TP1CND01-TP1CND86,TP1CND04,Used first top therapy for: asthma,691,1
+ALT.531_05.000,,TP1CND01-TP1CND86,TP1CND05,Used first top therapy for: arthritis,692,1
+ALT.531_06.000,,TP1CND01-TP1CND86,TP1CND06,Used first top therapy for: attention deficit disorder/hyperactivity,693,1
+ALT.531_07.000,,TP1CND01-TP1CND86,TP1CND07,"Used first top therapy for: benign tumors, cysts",694,1
+ALT.531_08.000,,TP1CND01-TP1CND86,TP1CND08,Used first top therapy for: bipolar disorder,695,1
+ALT.531_09.000,,TP1CND01-TP1CND86,TP1CND09,Used first top therapy for: birth defect,696,1
+ALT.531_10.000,,TP1CND01-TP1CND86,TP1CND10,Used first top therapy for: cancer,697,1
+ALT.531_11.000,,TP1CND01-TP1CND86,TP1CND11,Used first top therapy for: high cholesterol,698,1
+ALT.531_12.000,,TP1CND01-TP1CND86,TP1CND12,Used first top therapy for: chronic bronchitis,699,1
+ALT.531_13.000,,TP1CND01-TP1CND86,TP1CND13,Used first top therapy for: circulation problems (other than in the legs),700,1
+ALT.531_14.000,,TP1CND01-TP1CND86,TP1CND14,Used first top therapy for: coronary heart disease,701,1
+ALT.531_15.000,,TP1CND01-TP1CND86,TP1CND15,Used first top therapy for: dental pain,702,1
+ALT.531_16.000,,TP1CND01-TP1CND86,TP1CND16,Used first top therapy for: depression,703,1
+ALT.531_17.000,,TP1CND01-TP1CND86,TP1CND17,Used first top therapy for: diabetes,704,1
+ALT.531_18.000,,TP1CND01-TP1CND86,TP1CND18,Used first top therapy for: digestive allergy,705,1
+ALT.531_19.000,,TP1CND01-TP1CND86,TP1CND19,Used first top therapy for: excessive sleepiness during the day,706,1
+ALT.531_20.000,,TP1CND01-TP1CND86,TP1CND20,Used first top therapy for: excessive use of alcohol or tobacco,707,1
+ALT.531_21.000,,TP1CND01-TP1CND86,TP1CND21,Used first top therapy for: fatigue or lack of energy more than 3 days,708,1
+ALT.531_22.000,,TP1CND01-TP1CND86,TP1CND22,Used first top therapy for: fever more than 1 day,709,1
+ALT.531_23.000,,TP1CND01-TP1CND86,TP1CND23,Used first top therapy for: fibromyalgia,710,1
+ALT.531_24.000,,TP1CND01-TP1CND86,TP1CND24,"Used first top therapy for: fracture, bone/joint injury",711,1
+ALT.531_25.000,,TP1CND01-TP1CND86,TP1CND25,Used first top therapy for: gout,712,1
+ALT.531_26.000,,TP1CND01-TP1CND86,TP1CND26,Used first top therapy for: gynecological problem,713,1
+ALT.531_27.000,,TP1CND01-TP1CND86,TP1CND27,Used first top therapy for: hay fever,714,1
+ALT.531_28.000,,TP1CND01-TP1CND86,TP1CND28,Used first top therapy for: head or chest cold,715,1
+ALT.531_29.000,,TP1CND01-TP1CND86,TP1CND29,Used first top therapy for: hearing problem,716,1
+ALT.531_30.000,,TP1CND01-TP1CND86,TP1CND30,"Used first top therapy for: heart condition or disease, other than coronary heart disease",717,1
+ALT.531_31.000,,TP1CND01-TP1CND86,TP1CND31,Used first top therapy for: hernia,718,1
+ALT.531_32.000,,TP1CND01-TP1CND86,TP1CND32,Used first top therapy for: hypertension,719,1
+ALT.531_33.000,,TP1CND01-TP1CND86,TP1CND33,Used first top therapy for: infectious diseases or problems of the immune system,720,1
+ALT.531_34.000,,TP1CND01-TP1CND86,TP1CND34,Used first top therapy for: influenza or pneumonia,721,1
+ALT.531_35.000,,TP1CND01-TP1CND86,TP1CND35,Used first top therapy for: insomnia or trouble sleeping,722,1
+ALT.531_36.000,,TP1CND01-TP1CND86,TP1CND36,Used first top therapy for: jaw pain,723,1
+ALT.531_37.000,,TP1CND01-TP1CND86,TP1CND37,Used first top therapy for: joint pain or stiffness/other joint condition,724,1
+ALT.531_38.000,,TP1CND01-TP1CND86,TP1CND38,"Used first top therapy for: knee problems (not arthritis, not joint injury)",725,1
+ALT.531_39.000,,TP1CND01-TP1CND86,TP1CND39,Used first top therapy for: liver problem,726,1
+ALT.531_40.000,,TP1CND01-TP1CND86,TP1CND40,Used first top therapy for: lungs/breathing problem,727,1
+ALT.531_41.000,,TP1CND01-TP1CND86,TP1CND41,Used first top therapy for: lupus,728,1
+ALT.531_42.000,,TP1CND01-TP1CND86,TP1CND42,Used first top therapy for: memory loss or loss of other cognitive function,729,1
+ALT.531_43.000,,TP1CND01-TP1CND86,TP1CND43,Used first top therapy for: menopause,730,1
+ALT.531_44.000,,TP1CND01-TP1CND86,TP1CND44,Used first top therapy for: menstrual problems,731,1
+ALT.531_45.000,,TP1CND01-TP1CND86,TP1CND45,"Used first top therapy for: intellectual disability, also known as mental retardation",732,1
+ALT.531_46.000,,TP1CND01-TP1CND86,TP1CND46,"Used first top therapy for: missing limbs (fingers, toes, or digits), amputee",733,1
+ALT.531_47.000,,TP1CND01-TP1CND86,TP1CND47,Used first top therapy for: nausea and/or vomiting,734,1
+ALT.531_48.000,,TP1CND01-TP1CND86,TP1CND48,Used first top therapy for: neurological problems,735,1
+ALT.531_49.000,,TP1CND01-TP1CND86,TP1CND49,"Used first top therapy for: osteoporosis, tendinitis",736,1
+ALT.531_50.000,,TP1CND01-TP1CND86,TP1CND50,"Used first top therapy for: allergies other than hay fever, respiratory, food,",737,1
+ALT.531_51.000,,TP1CND01-TP1CND86,TP1CND51,Used first top therapy for: chronic pain,738,1
+ALT.531_52.000,,TP1CND01-TP1CND86,TP1CND52,Used first top therapy for: other developmental problem,739,1
+ALT.531_53.000,,TP1CND01-TP1CND86,TP1CND53,"Used first top therapy for: injury other than fracture, bone/joint injury",740,1
+ALT.531_54.000,,TP1CND01-TP1CND86,TP1CND54,Used first top therapy for: mental health disorders,741,1
+ALT.531_55.000,,TP1CND01-TP1CND86,TP1CND55,Used first top therapy for: muscle or bone pain,742,1
+ALT.531_56.000,,TP1CND01-TP1CND86,TP1CND56,"Used first top therapy for: nerve damage, including carpal tunnel syndrome",743,1
+ALT.531_57.000,,TP1CND01-TP1CND86,TP1CND57,Used first top therapy for: problems with being overweight,744,1
+ALT.531_58.000,,TP1CND01-TP1CND86,TP1CND58,Used first top therapy for: phobia or fears,745,1
+ALT.531_59.000,,TP1CND01-TP1CND86,TP1CND59,"Used first top therapy for: polio (myelitis), paralysis, para/quadriplegia",746,1
+ALT.531_60.000,,TP1CND01-TP1CND86,TP1CND60,Used first top therapy for: poor circulation in legs,747,1
+ALT.531_61.000,,TP1CND01-TP1CND86,TP1CND61,Used first top therapy for: prostate trouble or impotence,748,1
+ALT.531_62.000,,TP1CND01-TP1CND86,TP1CND62,"Used first top therapy for: recurring headache, other than migraine",749,1
+ALT.531_63.000,,TP1CND01-TP1CND86,TP1CND63,Used first top therapy for: respiratory allergy,750,1
+ALT.531_64.000,,TP1CND01-TP1CND86,TP1CND64,Used first top therapy for: rheumatoid arthritis,751,1
+ALT.531_65.000,,TP1CND01-TP1CND86,TP1CND65,Used first top therapy for: senility,752,1
+ALT.531_66.000,,TP1CND01-TP1CND86,TP1CND66,Used first top therapy for: sinusitis,753,1
+ALT.531_67.000,,TP1CND01-TP1CND86,TP1CND67,Used first top therapy for: eczema or any kind of skin allergy,754,1
+ALT.531_68.000,,TP1CND01-TP1CND86,TP1CND68,"Used first top therapy for: skin problems, other than eczema or skin allergies",755,1
+ALT.531_69.000,,TP1CND01-TP1CND86,TP1CND69,Used first top therapy for: sore throat other than strep or tonsillitis,756,1
+ALT.531_70.000,,TP1CND01-TP1CND86,TP1CND70,Used first top therapy for: sprain or strain,757,1
+ALT.531_71.000,,TP1CND01-TP1CND86,TP1CND71,Used first top therapy for: frequent stress,758,1
+ALT.531_72.000,,TP1CND01-TP1CND86,TP1CND72,Used first top therapy for: strep throat or tonsillitis,759,1
+ALT.531_73.000,,TP1CND01-TP1CND86,TP1CND73,"Used first top therapy for: substance abuse, other than alcohol or tobacco",760,1
+ALT.531_74.000,,TP1CND01-TP1CND86,TP1CND74,Used first top therapy for: filled problem from AFLHCA_S1,761,1
+ALT.531_75.000,,TP1CND01-TP1CND86,TP1CND75,Used first top therapy for: filled problem from AFLHCA_S2,762,1
+ALT.531_76.000,,TP1CND01-TP1CND86,TP1CND76,Used first top therapy for: ulcer,763,1
+ALT.531_77.000,,TP1CND01-TP1CND86,TP1CND77,Used first top therapy for: urinary problems,764,1
+ALT.531_78.000,,TP1CND01-TP1CND86,TP1CND78,"Used first top therapy for: varicose veins, hemorrhoids",765,1
+ALT.531_79.000,,TP1CND01-TP1CND86,TP1CND79,Used first top therapy for: vision problem,766,1
+ALT.531_80.000,,TP1CND01-TP1CND86,TP1CND80,Used first top therapy for: weak or failing kidneys,767,1
+ALT.531_81.000,,TP1CND01-TP1CND86,TP1CND81,Used first top therapy for: COPD,768,1
+ALT.531_82.000,,TP1CND01-TP1CND86,TP1CND82,Used first top therapy for: back pain or problem,769,1
+ALT.531_83.000,,TP1CND01-TP1CND86,TP1CND83,Used first top therapy for: Neck pain/problem,770,1
+ALT.531_84.000,,TP1CND01-TP1CND86,TP1CND84,Used first top therapy for: severe headache or migraine,771,1
+ALT.531_85.000,,TP1CND01-TP1CND86,TP1CND85,Used first top therapy for: stomach or intestinal illness,772,1
+ALT.531_86.000,,TP1CND01-TP1CND86,TP1CND86,Used first top therapy for: other specify,773,1
+ALT.531_87.000,RECODE,,TP1CND87,Used first top therapy for: condition not elsewhere classified,774,1
+ALT.531_88.000,RECODE,,TP1CND88,Used first top therapy for: any cardiovascular condition,775,1
+ALT.532_00.000,,TP1_CMST,TP1_CMST,Most important health problem for which first top therapy was used,776 - 777,2
+ALT.533_00.000,,TP1_CHLP,TP1_CHLP,How much first top therapy helped address the health problem,778,1
+ALT.534_00.000,,TP1_MTR1,TP1_MTR1,Received prescription medication for most important health condition treated by first top therapy,779,1
+ALT.535_00.000,,TP1_MTR2,TP1_MTR2,Received over-the-counter medication for most important health condition treated by first top therapy,780,1
+ALT.536_00.000,,TP1_MTR3,TP1_MTR3,Received surgery for most important health condition treated by first top therapy,781,1
+ALT.537_00.000,,TP1_MTR4,TP1_MTR4,Received physical therapy for most important health condition treated by first top therapy,782,1
+ALT.538_00.000,,TP1_MTR5,TP1_MTR5,Received mental health counseling for most important health condition treated by first top therapy,783,1
+ALT.539_00.000,,TP1_RS1,TP1_RS1,Used/saw practitioner for first top therapy because: medical treatments were too expensive,784,1
+ALT.540_00.000,,TP1_RS2,TP1_RS2,Used/saw practitioner for first top therapy because: therapy combined with medical treatment would help,785,1
+ALT.541_00.000,,TP1_RS3,TP1_RS3,Used/saw practitioner for first top therapy because: medical treatments do not work for your specific health problem,786,1
+ALT.542_00.000,,TP1_RS4,TP1_RS4,Used/saw practitioner for first top therapy because: medications cause side effects,787,1
+ALT.543_00.000,,TP1_RS5,TP1_RS5,Used/saw practitioner for first top therapy because: it can be practiced/done on your own,788,1
+ALT.544_00.000,,TP1_RS6,TP1_RS6,Used/saw practitioner for first top therapy because: it is natural,789,1
+ALT.545_00.000,,TP1_RS7,TP1_RS7,"Used/saw practitioner for first top therapy because: it focuses on the whole person, mind, body, and spirit",790,1
+ALT.546_00.000,,TP1_RS8,TP1_RS8,Used/saw practitioner for first top therapy because: it treats the cause and not just the symptoms,791,1
+ALT.547_00.000,,TP1_RS9,TP1_RS9,Used/saw practitioner for first top therapy because: it was part of your upbringing,792,1
+ALT.548_00.000,,TP1_REC1,TP1_REC1,Used/saw practitioner for first top therapy because it was recommended by: a medical doctor,793,1
+ALT.549_00.000,,TP1_REC2,TP1_REC2,Used/saw practitioner for first top therapy because it was recommended by: a family member,794,1
+ALT.550_00.000,,TP1_REC3,TP1_REC3,Used/saw practitioner for first top therapy because it was recommended by: a friend,795,1
+ALT.551_00.000,,TP1_REC4,TP1_REC4,Used/saw practitioner for first top therapy because it was recommended by: a co-worker,796,1
+ALT.552_00.000,,TP1_IMP,TP1_IMP,How important use of first top therapy was in maintaining health and well-being,797,1
+ALT.553_00.000,,TP1_DS1,TP1_DS1,Told personal health care provider about use of first top therapy,798,1
+ALT.554_00.000,,TP1_DS2,TP1_DS2,Didn't tell personal health care provider about use of first top therapy because: weren't using therapy at the time,799,1
+ALT.555_00.000,,TP1_DS3,TP1_DS3,Didn't tell personal health care provider about use of first top therapy because: they discouraged use of therapy in the past,800,1
+ALT.556_00.000,,TP1_DS4,TP1_DS4,Didn't tell personal health care provider about use of first top therapy because: worried they would discourage it,801,1
+ALT.557_00.000,,TP1_DS5,TP1_DS5,Didn't tell personal health care provider about use of first top therapy because: concerned about a negative reaction,802,1
+ALT.558_00.000,,TP1_DS6,TP1_DS6,Didn't tell personal health care provider about use of first top therapy because: didn't think they needed to know,803,1
+ALT.559_00.000,,TP1_DS7,TP1_DS7,Didn't tell personal health care provider about use of first top therapy because: they didn't ask,804,1
+ALT.560_00.000,,TP1_DS8,TP1_DS8,Didn't tell health care provider about use of first top therapy because: didn't think they knew as much about therapy as you do,805,1
+ALT.561_00.000,,TP1_DS9,TP1_DS9,Didn't tell personal health care provider about use of first top therapy because: they didn't give you enough time to tell them,806,1
+ALT.580_00.000,,TP1_INF1,TP1_INF1,Got information about first top therapy from: the internet,807,1
+ALT.581_00.000,,TP1_INF2,TP1_INF2,"Got information about first top therapy from: books, magazines, or newspapers",808,1
+ALT.582_00.000,,TP1_INF3,TP1_INF3,"Got information about first top therapy from: DVDs, videos, or CDs",809,1
+ALT.583_00.000,,TP1_INF4,TP1_INF4,Got information about first top therapy from: television or radio,810,1
+ALT.584_00.000,,TP1_INF5,TP1_INF5,Got information about first top therapy from: scientific articles,811,1
+ALT.585_00.000,,TP1_INF6,TP1_INF6,Got information about first top therapy from: health food stores,812,1
+ALT.595_00.000,,TP2_REA1,TP2_REA1,Used/saw practitioner for second top therapy: for general wellness or general disease prevention,813,1
+ALT.596_00.000,,TP2_REA2,TP2_REA2,Used/saw practitioner for second top therapy: to improve energy,814,1
+ALT.597_00.000,,TP2_REA3,TP2_REA3,Used/saw practitioner for second top therapy: to improve immune function,815,1
+ALT.598_00.000,,TP2_REA4,TP2_REA4,Used/saw practitioner for second top therapy: to improve athletic or sports performance,816,1
+ALT.599_00.000,,TP2_REA5,TP2_REA5,Used/saw practitioner for second top therapy: to improve memory or concentration,817,1
+ALT.600_00.000,,TP2_MOT1,TP2_MOT1,Using/seeing practitioner for second top therapy was motivation to: eat healthier,818,1
+ALT.601_00.000,,TP2_MOT2,TP2_MOT2,Using/seeing practitioner for second top therapy was motivation to: eat more organic foods,819,1
+ALT.602_00.000,,TP2_MOT3,TP2_MOT3,Using/seeing practitioner for second top therapy was motivation to: cut back or stop drinking alcohol,820,1
+ALT.603_00.000,,TP2_MOT4,TP2_MOT4,Using/seeing practitioner for second top therapy was motivation to: cut back or stop smoking cigarettes,821,1
+ALT.604_00.000,,TP2_MOT5,TP2_MOT5,Using/seeing practitioner for second top therapy was motivation to: exercise more regularly,822,1
+ALT.605_00.000,,TP2_OUT1,TP2_OUT1,Using/seeing practitioner for second top therapy: gave a sense of control over one's health,823,1
+ALT.606_00.000,,TP2_OUT2,TP2_OUT2,Using/seeing practitioner for second top therapy led to: reduced stress level or relaxation,824,1
+ALT.607_00.000,,TP2_OUT3,TP2_OUT3,Using/seeing practitioner for second top therapy led to: better sleep,825,1
+ALT.608_00.000,,TP2_OUT4,TP2_OUT4,Using/seeing practitioner for second therapy led to: feeling better emotionally,826,1
+ALT.609_00.000,,TP2_OUT5,TP2_OUT5,Using/seeing practitioner for second top therapy led to: made it easier to cope with health problems,827,1
+ALT.610_00.000,,TP2_OUT6,TP2_OUT6,Using/seeing practitioner for second top therapy led to: improved overall health and feeling better,828,1
+ALT.611_00.000,,TP2_OUT7,TP2_OUT7,Using/seeing practitioner for second top therapy led to: improved relationships with others,829,1
+ALT.612_00.000,,TP2_OUT8,TP2_OUT8,Using/seeing practitioner for second top therapy led to: improved attendance at job or school,830,1
+ALT.613_00.000,,TP2_MOST,TP2_MOST,Most important reason for using second top therapy,831 - 832,2
+ALT.614_00.000,,TP2_HELP,TP2_HELP,How much second top therapy helped with the most important reason for its use,833,1
+ALT.615_00.000,,TP2_TRET,TP2_TRET,Used second top therapy for specific health problem(s),834,1
+ALT.616_01.000,,TP2CND01-TP2CND86,TP2CND01,Used second top therapy for: abdominal pain,835,1
+ALT.616_02.000,,TP2CND01-TP2CND86,TP2CND02,Used second top therapy for: acid reflux or heartburn,836,1
+ALT.616_03.000,,TP2CND01-TP2CND86,TP2CND03,"Used second top therapy for: feeling anxious, nervous, or worried",837,1
+ALT.616_04.000,,TP2CND01-TP2CND86,TP2CND04,Used second top therapy for: asthma,838,1
+ALT.616_05.000,,TP2CND01-TP2CND86,TP2CND05,Used second top therapy for: arthritis,839,1
+ALT.616_06.000,,TP2CND01-TP2CND86,TP2CND06,Used second top therapy for: attention deficit disorder/hyperactivity,840,1
+ALT.616_07.000,,TP2CND01-TP2CND86,TP2CND07,"Used second top therapy for: benign tumors, cysts",841,1
+ALT.616_08.000,,TP2CND01-TP2CND86,TP2CND08,Used second top therapy for: bipolar disorder,842,1
+ALT.616_09.000,,TP2CND01-TP2CND86,TP2CND09,Used second top therapy for: birth defect,843,1
+ALT.616_10.000,,TP2CND01-TP2CND86,TP2CND10,Used second top therapy for: cancer,844,1
+ALT.616_11.000,,TP2CND01-TP2CND86,TP2CND11,Used second top therapy for: high cholesterol,845,1
+ALT.616_12.000,,TP2CND01-TP2CND86,TP2CND12,Used second top therapy for: chronic bronchitis,846,1
+ALT.616_13.000,,TP2CND01-TP2CND86,TP2CND13,Used second top therapy for: circulation problems (other than in the legs),847,1
+ALT.616_14.000,,TP2CND01-TP2CND86,TP2CND14,Used second top therapy for: coronary heart disease,848,1
+ALT.616_15.000,,TP2CND01-TP2CND86,TP2CND15,Used second top therapy for: dental pain,849,1
+ALT.616_16.000,,TP2CND01-TP2CND86,TP2CND16,Used second top therapy for: depression,850,1
+ALT.616_17.000,,TP2CND01-TP2CND86,TP2CND17,Used second top therapy for: diabetes,851,1
+ALT.616_18.000,,TP2CND01-TP2CND86,TP2CND18,Used second top therapy for: digestive allergy,852,1
+ALT.616_19.000,,TP2CND01-TP2CND86,TP2CND19,Used second top therapy for: excessive sleepiness during the day,853,1
+ALT.616_20.000,,TP2CND01-TP2CND86,TP2CND20,Used second top therapy for: excessive use of alcohol or tobacco,854,1
+ALT.616_21.000,,TP2CND01-TP2CND86,TP2CND21,Used second top therapy for: fatigue or lack of energy more than 3 days,855,1
+ALT.616_22.000,,TP2CND01-TP2CND86,TP2CND22,Used second top therapy for: fever more than 1 day,856,1
+ALT.616_23.000,,TP2CND01-TP2CND86,TP2CND23,Used second top therapy for: fibromyalgia,857,1
+ALT.616_24.000,,TP2CND01-TP2CND86,TP2CND24,"Used second top therapy for: fracture, bone/joint injury",858,1
+ALT.616_25.000,,TP2CND01-TP2CND86,TP2CND25,Used second top therapy for: gout,859,1
+ALT.616_26.000,,TP2CND01-TP2CND86,TP2CND26,Used second top therapy for: gynecological problem,860,1
+ALT.616_27.000,,TP2CND01-TP2CND86,TP2CND27,Used second top therapy for: hay fever,861,1
+ALT.616_28.000,,TP2CND01-TP2CND86,TP2CND28,Used second top therapy for: head or chest cold,862,1
+ALT.616_29.000,,TP2CND01-TP2CND86,TP2CND29,Used second top therapy for: hearing problem,863,1
+ALT.616_30.000,,TP2CND01-TP2CND86,TP2CND30,"Used second top therapy for: heart condition or disease, other than coronary heart disease",864,1
+ALT.616_31.000,,TP2CND01-TP2CND86,TP2CND31,Used second top therapy for: hernia,865,1
+ALT.616_32.000,,TP2CND01-TP2CND86,TP2CND32,Used second top therapy for: hypertension,866,1
+ALT.616_33.000,,TP2CND01-TP2CND86,TP2CND33,Used second top therapy for: infectious diseases or problems of the immune system,867,1
+ALT.616_34.000,,TP2CND01-TP2CND86,TP2CND34,Used second top therapy for: influenza or pneumonia,868,1
+ALT.616_35.000,,TP2CND01-TP2CND86,TP2CND35,Used second top therapy for: insomnia or trouble sleeping,869,1
+ALT.616_36.000,,TP2CND01-TP2CND86,TP2CND36,Used second top therapy for: jaw pain,870,1
+ALT.616_37.000,,TP2CND01-TP2CND86,TP2CND37,Used second top therapy for: joint pain or stiffness/other joint condition,871,1
+ALT.616_38.000,,TP2CND01-TP2CND86,TP2CND38,"Used second top therapy for: knee problems (not arthritis, not joint injury)",872,1
+ALT.616_39.000,,TP2CND01-TP2CND86,TP2CND39,Used second top therapy for: liver problem,873,1
+ALT.616_40.000,,TP2CND01-TP2CND86,TP2CND40,Used second top therapy for: lungs/breathing problem,874,1
+ALT.616_41.000,,TP2CND01-TP2CND86,TP2CND41,Used second top therapy for: lupus,875,1
+ALT.616_42.000,,TP2CND01-TP2CND86,TP2CND42,Used second top therapy for: memory loss or loss of other cognitive function,876,1
+ALT.616_43.000,,TP2CND01-TP2CND86,TP2CND43,Used second top therapy for: menopause,877,1
+ALT.616_44.000,,TP2CND01-TP2CND86,TP2CND44,Used second top therapy for: menstrual problems,878,1
+ALT.616_45.000,,TP2CND01-TP2CND86,TP2CND45,"Used second top therapy for: intellectual disability, also known as mental retardation",879,1
+ALT.616_46.000,,TP2CND01-TP2CND86,TP2CND46,"Used second top therapy for: missing limbs (fingers, toes, or digits), amputee",880,1
+ALT.616_47.000,,TP2CND01-TP2CND86,TP2CND47,Used second top therapy for: nausea and/or vomiting,881,1
+ALT.616_48.000,,TP2CND01-TP2CND86,TP2CND48,Used second top therapy for: neurological problems,882,1
+ALT.616_49.000,,TP2CND01-TP2CND86,TP2CND49,"Used second top therapy for: osteoporosis, tendinitis",883,1
+ALT.616_50.000,,TP2CND01-TP2CND86,TP2CND50,"Used second top therapy for: allergies other than hay fever, respiratory, food, digestive, or skin allergies",884,1
+ALT.616_51.000,,TP2CND01-TP2CND86,TP2CND51,Used second top therapy for: chronic pain,885,1
+ALT.616_52.000,,TP2CND01-TP2CND86,TP2CND52,Used second top therapy for: other developmental problem,886,1
+ALT.616_53.000,,TP2CND01-TP2CND86,TP2CND53,"Used second top therapy for: injury other than fracture, bone/joint injury",887,1
+ALT.616_54.000,,TP2CND01-TP2CND86,TP2CND54,Used second top therapy for: mental health disorders,888,1
+ALT.616_55.000,,TP2CND01-TP2CND86,TP2CND55,Used second top therapy for: muscle or bone pain,889,1
+ALT.616_56.000,,TP2CND01-TP2CND86,TP2CND56,"Used second top therapy for: nerve damage, including carpal tunnel syndrome",890,1
+ALT.616_57.000,,TP2CND01-TP2CND86,TP2CND57,Used second top therapy for: problems with being overweight,891,1
+ALT.616_58.000,,TP2CND01-TP2CND86,TP2CND58,Used second top therapy for: phobia or fears,892,1
+ALT.616_59.000,,TP2CND01-TP2CND86,TP2CND59,"Used second top therapy for: polio (myelitis), paralysis, para/quadriplegia",893,1
+ALT.616_60.000,,TP2CND01-TP2CND86,TP2CND60,Used second top therapy for: poor circulation in legs,894,1
+ALT.616_61.000,,TP2CND01-TP2CND86,TP2CND61,Used second top therapy for: prostate trouble or impotence,895,1
+ALT.616_62.000,,TP2CND01-TP2CND86,TP2CND62,"Used second top therapy for: recurring headache, other than migraine",896,1
+ALT.616_63.000,,TP2CND01-TP2CND86,TP2CND63,Used second top therapy for: respiratory allergy,897,1
+ALT.616_64.000,,TP2CND01-TP2CND86,TP2CND64,Used second top therapy for: rheumatoid arthritis,898,1
+ALT.616_65.000,,TP2CND01-TP2CND86,TP2CND65,Used second top therapy for: senility,899,1
+ALT.616_66.000,,TP2CND01-TP2CND86,TP2CND66,Used second top therapy for: sinusitis,900,1
+ALT.616_67.000,,TP2CND01-TP2CND86,TP2CND67,Used second top therapy for: eczema or any kind of skin allergy,901,1
+ALT.616_68.000,,TP2CND01-TP2CND86,TP2CND68,"Used second top therapy for: skin problems, other than eczema or skin allergies",902,1
+ALT.616_69.000,,TP2CND01-TP2CND86,TP2CND69,Used second top therapy for: sore throat other than strep or tonsillitis,903,1
+ALT.616_70.000,,TP2CND01-TP2CND86,TP2CND70,Used second top therapy for: sprain or strain,904,1
+ALT.616_71.000,,TP2CND01-TP2CND86,TP2CND71,Used second top therapy for: frequent stress,905,1
+ALT.616_72.000,,TP2CND01-TP2CND86,TP2CND72,Used second top therapy for: strep throat or tonsillitis,906,1
+ALT.616_73.000,,TP2CND01-TP2CND86,TP2CND73,"Used second top therapy for: substance abuse, other than alcohol or tobacco",907,1
+ALT.616_74.000,,TP2CND01-TP2CND86,TP2CND74,Used second top therapy for: filled problem from AFLHCA_S1,908,1
+ALT.616_75.000,,TP2CND01-TP2CND86,TP2CND75,Used second top therapy for: filled problem from AFLHCA_S2,909,1
+ALT.616_76.000,,TP2CND01-TP2CND86,TP2CND76,Used second top therapy for: ulcer,910,1
+ALT.616_77.000,,TP2CND01-TP2CND86,TP2CND77,Used second top therapy for: urinary problems,911,1
+ALT.616_78.000,,TP2CND01-TP2CND86,TP2CND78,"Used second top therapy for: varicose veins, hemorrhoids",912,1
+ALT.616_79.000,,TP2CND01-TP2CND86,TP2CND79,Used second top therapy for: vision problem,913,1
+ALT.616_80.000,,TP2CND01-TP2CND86,TP2CND80,Used second top therapy for: weak or failing kidneys,914,1
+ALT.616_81.000,,TP2CND01-TP2CND86,TP2CND81,Used second top therapy for: COPD,915,1
+ALT.616_82.000,,TP2CND01-TP2CND86,TP2CND82,Used second top therapy for: back pain or problem,916,1
+ALT.616_83.000,,TP2CND01-TP2CND86,TP2CND83,Used second top therapy for: Neck pain/problem,917,1
+ALT.616_84.000,,TP2CND01-TP2CND86,TP2CND84,Used second top therapy for: severe headache or migraine,918,1
+ALT.616_85.000,,TP2CND01-TP2CND86,TP2CND85,Used second top therapy for: stomach or intestinal illness,919,1
+ALT.616_86.000,,TP2CND01-TP2CND86,TP2CND86,Used second top therapy for: other specify,920,1
+ALT.616_87.000,RECODE,RECODE,TP2CND87,Used second top therapy for: condition not elsewhere classified,921,1
+ALT.616_88.000,RECODE,RECODE,TP2CND88,Used second top therapy for: any cardiovascular condition,922,1
+ALT.617_00.000,,TP2_CMST,TP2_CMST,Most important health problem for which second top therapy was used,923 - 924,2
+ALT.618_00.000,,TP2_CHLP,TP2_CHLP,How much second top therapy helped address the health problem,925,1
+ALT.619_00.000,,TP2_MTR1,TP2_MTR1,Received prescription medication for most important health condition treated by second top therapy,926,1
+ALT.620_00.000,,TP2_MTR2,TP2_MTR2,Received over-the-counter medication for most important health condition treated by second top therapy,927,1
+ALT.621_00.000,,TP2_MTR3,TP2_MTR3,Received surgery for most important health condition treated by second top therapy,928,1
+ALT.622_00.000,,TP2_MTR4,TP2_MTR4,Received physical therapy for most important health condition treated by second top therapy,929 930 931,1
+ALT.623_00.000,,TP2_MTR5,TP2_MTR5,Received mental health counseling for most important health condition treated by second top therapy,930,1
+ALT.624_00.000,,TP2_RS1,TP2_RS1,Used/saw practitioner for second top therapy because: medical treatments were too expensive,931,1
+ALT.625_00.000,,TP2_RS2,TP2_RS2,Used/saw practitioner for second top therapy because: therapy combined with medical treatment would help,932,1
+ALT.626_00.000,,TP2_RS3,TP2_RS3,Used/saw practitioner for second top therapy because: medical treatments do not work for your specific health problem,933,1
+ALT.627_00.000,,TP2_RS4,TP2_RS4,Used/saw practitioner for second top therapy because: medications cause side effects,934,1
+ALT.628_00.000,,TP2_RS5,TP2_RS5,Used/saw practitioner for second top therapy because: it can be practiced/done on your own,935,1
+ALT.629_00.000,,TP2_RS6,TP2_RS6,Used/saw practitioner for second top therapy because: it is natural,936,1
+ALT.630_00.000,,TP2_RS7,TP2_RS7,"Used/saw practitioner for second top therapy because: it focuses on the whole person, mind, body, and spirit",937,1
+ALT.631_00.000,,TP2_RS8,TP2_RS8,Used/saw practitioner for second top therapy because: it treats the cause and not just the symptoms,938,1
+ALT.632_00.000,,TP2_RS9,TP2_RS9,Used/saw practitioner for second top therapy because: it was part of your upbringing,939,1
+ALT.633_00.000,,TP2_REC1,TP2_REC1,Used/saw practitioner for second top therapy because it was recommended by: a medical doctor,940,1
+ALT.634_00.000,,TP2_REC2,TP2_REC2,Used/saw practitioner for second top therapy because it was recommended by: a family member,941,1
+ALT.635_00.000,,TP2_REC3,TP2_REC3,Used/saw practitioner for second top therapy because it was recommended by: a friend,942,1
+ALT.636_00.000,,TP2_REC4,TP2_REC4,Used/saw practitioner for second top therapy because it was recommended by: a co-worker,943,1
+ALT.637_00.000,,TP2_IMP,TP2_IMP,How important use of second top therapy was in maintaining health and wellbeing,943,1
+ALT.638_00.000,,TP2_DS1,TP2_DS1,Told personal health care provider about use of second top therapy,945,1
+ALT.639_00.000,,TP2_DS2,TP2_DS2,Didn't tell personal health care provider about use of second top therapy because: weren't using therapy at the time,946,1
+ALT.640_00.000,,TP2_DS3,TP2_DS3,Didn't tell personal health care provider about use of second top therapy because: they discouraged use of therapy in the past,947,1
+ALT.641_00.000,,TP2_DS4,TP2_DS4,Didn't tell personal health care provider about use of second top therapy because: worried they would discourage it,948,1
+ALT.642_00.000,,TP2_DS5,TP2_DS5,Didn't tell personal health care provider about use of second top therapy because: concerned about a negative reaction,949,1
+ALT.643_00.000,,TP2_DS6,TP2_DS6,Didn't tell personal health care provider about use of second top therapy because: didn't think they needed to know,950,1
+ALT.644_00.000,,TP2_DS7,TP2_DS7,Didn't tell personal health care provider about use of second top therapy because: they didn't ask,951,1
+ALT.645_00.000,,TP2_DS8,TP2_DS8,Didn't tell health care provider about use of second top therapy because didn't think they knew as much about therapy as you do,952,1
+ALT.646_00.000,,TP2_DS9,TP2_DS9,Didn't tell personal health care provider about use of second top therapy because: they didn't give you enough time to tell them,953,1
+ALT.675_00.000,,TP2_INF1,TP2_INF1,Got information about second top therapy from: the internet,954,1
+ALT.676_00.000,,TP2_INF2,TP2_INF2,"Got information about second top therapy from: books, magazines, or newspapers",955,1
+ALT.677_00.000,,TP2_INF3,TP2_INF3,"Got information about second top therapy from: DVDs, videos, or CDs",956,1
+ALT.678_00.000,,TP2_INF4,TP2_INF4,Got information about second top therapy from: television or radio,957,1
+ALT.679_00.000,,TP2_INF5,TP2_INF5,Got information about second top therapy from: scientific articles,958,1
+ALT.680_00.000,,TP2_INF6,TP2_INF6,Got information about second top therapy from: health food stores,959,1
+ALT.690_00.000,,TP3_REA1,TP3_REA1,Used/saw practitioner for third top therapy: for general wellness or general disease prevention,960,1
+ALT.691_00.000,,TP3_REA2,TP3_REA2,Used/saw practitioner for third top therapy: to improve energy,961,1
+ALT.692_00.000,,TP3_REA3,TP3_REA3,Used/saw practitioner for third top therapy: to improve immune function,962,1
+ALT.693_00.000,,TP3_REA4,TP3_REA4,Used/saw practitioner for third top therapy: to improve athletic or sports performance,963,1
+ALT.694_00.000,,TP3_REA5,TP3_REA5,Used/saw practitioner for third top therapy: to improve memory or concentration,964,1
+ALT.695_00.000,,TP3_MOT1,TP3_MOT1,Using/seeing practitioner for third top therapy was motivation to: eat healthier,965,1
+ALT.696_00.000,,TP3_MOT2,TP3_MOT2,Using/seeing practitioner for third top therapy was motivation to: eat more organic foods,966,1
+ALT.697_00.000,,TP3_MOT3,TP3_MOT3,Using/seeing practitioner for third top therapy was motivation to: cut back or stop drinking alcohol,967,1
+ALT.698_00.000,,TP3_MOT4,TP3_MOT4,Using/seeing practitioner for third top therapy was motivation to: cut back or stop smoking cigarettes,968,1
+ALT.699_00.000,,TP3_MOT5,TP3_MOT5,Using/seeing practitioner for third top therapy was motivation to: exercise more regularly,969,1
+ALT.700_00.000,,TP3_OUT1,TP3_OUT1,Using/seeing practitioner for third top therapy: gave a sense of control over one's health,970,1
+ALT.701_00.000,,TP3_OUT2,TP3_OUT2,Using/seeing practitioner for third top therapy led to: reduced stress level or relaxation,971,1
+ALT.702_00.000,,TP3_OUT3,TP3_OUT3,Using/seeing practitioner for third top therapy led to: better sleep,972,1
+ALT.703_00.000,,TP3_OUT4,TP3_OUT4,Using/seeing practitioner for third top therapy led to: feeling better emotionally,973,1
+ALT.704_00.000,,TP3_OUT5,TP3_OUT5,Using/seeing practitioner for third top therapy led to: made it easier to cope with health problems,974,1
+ALT.705_00.000,,TP3_OUT6,TP3_OUT6,Using/seeing practitioner for third top therapy led to: improved overall health and feeling better,975,1
+ALT.706_00.000,,TP3_OUT7,TP3_OUT7,Using/seeing practitioner for third top therapy led to: improved relationships with others,976,1
+ALT.707_00.000,,TP3_OUT8,TP3_OUT8,Using/seeing practitioner for third top therapy led to: improved attendance at job or school,977,1
+ALT.708_00.000,,TP3_MOST,TP3_MOST,Most important reason for using third top therapy,978 - 979,2
+ALT.709_00.000,,TP3_HELP,TP3_HELP,How much third top therapy helped with the most important reason for its use,980,1
+ALT.710_00.000,,TP3_TRET,TP3_TRET,Used third top therapy for specific health problem(s),981,1
+ALT.711_01.000,,TP3CND01-TP3CND86,TP3CND01,Used third top therapy for: abdominal pain,982,1
+ALT.711_02.000,,TP3CND01-TP3CND86,TP3CND02,Used third top therapy for: acid reflux or heartburn,983,1
+ALT.711_03.000,,TP3CND01-TP3CND86,TP3CND03,"Used third top therapy for: feeling anxious, nervous, or worried",984,1
+ALT.711_04.000,,TP3CND01-TP3CND86,TP3CND04,Used third top therapy for: asthma,985,1
+ALT.711_05.000,,TP3CND01-TP3CND86,TP3CND05,Used third top therapy for: arthritis,986,1
+ALT.711_06.000,,TP3CND01-TP3CND86,TP3CND06,Used third top therapy for: attention deficit disorder/hyperactivity,987,1
+ALT.711_07.000,,TP3CND01-TP3CND86,TP3CND07,"Used third top therapy for: benign tumors, cysts",988,1
+ALT.711_08.000,,TP3CND01-TP3CND86,TP3CND08,Used third top therapy for: bipolar disorder,989,1
+ALT.711_09.000,,TP3CND01-TP3CND86,TP3CND09,Used third top therapy for: birth defect,990,1
+ALT.711_10.000,,TP3CND01-TP3CND86,TP3CND10,Used third top therapy for: cancer,991,1
+ALT.711_11.000,,TP3CND01-TP3CND86,TP3CND11,Used third top therapy for: high cholesterol,992,1
+ALT.711_12.000,,TP3CND01-TP3CND86,TP3CND12,Used third top therapy for: chronic bronchitis,993,1
+ALT.711_13.000,,TP3CND01-TP3CND86,TP3CND13,Used third top therapy for: circulation problems (other than in the legs),994,1
+ALT.711_14.000,,TP3CND01-TP3CND86,TP3CND14,Used third top therapy for: coronary heart disease,995,1
+ALT.711_15.000,,TP3CND01-TP3CND86,TP3CND15,Used third top therapy for: dental pain,996,1
+ALT.711_16.000,,TP3CND01-TP3CND86,TP3CND16,Used third top therapy for: depression,997,1
+ALT.711_17.000,,TP3CND01-TP3CND86,TP3CND17,Used third top therapy for: diabetes,998,1
+ALT.711_18.000,,TP3CND01-TP3CND86,TP3CND18,Used third top therapy for: digestive allergy,999,1
+ALT.711_19.000,,TP3CND01-TP3CND86,TP3CND19,Used third top therapy for: excessive sleepiness during the day,1000,1
+ALT.711_20.000,,TP3CND01-TP3CND86,TP3CND20,Used third top therapy for: excessive use of alcohol or tobacco,1001,1
+ALT.711_21.000,,TP3CND01-TP3CND86,TP3CND21,Used third top therapy for: fatigue or lack of energy more than 3 days,1002,1
+ALT.711_22.000,,TP3CND01-TP3CND86,TP3CND22,Used third top therapy for: fever more than 1 day,1003,1
+ALT.711_23.000,,TP3CND01-TP3CND86,TP3CND23,Used third top therapy for: fibromyalgia,1004,1
+ALT.711_24.000,,TP3CND01-TP3CND86,TP3CND24,"Used third top therapy for: fracture, bone/joint injury",1005,1
+ALT.711_25.000,,TP3CND01-TP3CND86,TP3CND25,Used third top therapy for: gout,1006,1
+ALT.711_26.000,,TP3CND01-TP3CND86,TP3CND26,Used third top therapy for: gynecological problem,1007,1
+ALT.711_27.000,,TP3CND01-TP3CND86,TP3CND27,Used third top therapy for: hay fever,1008,1
+ALT.711_28.000,,TP3CND01-TP3CND86,TP3CND28,Used third top therapy for: head or chest cold,1009,1
+ALT.711_29.000,,TP3CND01-TP3CND86,TP3CND29,Used third top therapy for: hearing problem,1010,1
+ALT.711_30.000,,TP3CND01-TP3CND86,TP3CND30,"Used third top therapy for: heart condition or disease, other than coronary heart",1011,1
+ALT.711_31.000,,TP3CND01-TP3CND86,TP3CND31,Used third top therapy for: hernia,1012,1
+ALT.711_32.000,,TP3CND01-TP3CND86,TP3CND32,Used third top therapy for: hypertension,1013,1
+ALT.711_33.000,,TP3CND01-TP3CND86,TP3CND33,Used third top therapy for: infectious diseases or problems of the immune system,1014,1
+ALT.711_34.000,,TP3CND01-TP3CND86,TP3CND34,Used third top therapy for: influenza or pneumonia,1015,1
+ALT.711_35.000,,TP3CND01-TP3CND86,TP3CND35,Used third top therapy for: insomnia or trouble sleeping,1016,1
+ALT.711_36.000,,TP3CND01-TP3CND86,TP3CND36,Used third top therapy for: jaw pain,1017,1
+ALT.711_37.000,,TP3CND01-TP3CND86,TP3CND37,Used third top therapy for: joint pain or stiffness/other joint condition,1018,1
+ALT.711_38.000,,TP3CND01-TP3CND86,TP3CND38,"Used third top therapy for: knee problems (not arthritis, not joint injury)",1019,1
+ALT.711_39.000,,TP3CND01-TP3CND86,TP3CND39,Used third top therapy for: liver problem,1020,1
+ALT.711_40.000,,TP3CND01-TP3CND86,TP3CND40,Used third top therapy for: lungs/breathing problem,1021,1
+ALT.711_41.000,,TP3CND01-TP3CND86,TP3CND41,Used third top therapy for: lupus,1022,1
+ALT.711_42.000,,TP3CND01-TP3CND86,TP3CND42,Used third top therapy for: memory loss or loss of other cognitive function,1023,1
+ALT.711_43.000,,TP3CND01-TP3CND86,TP3CND43,Used third top therapy for: menopause,1024,1
+ALT.711_44.000,,TP3CND01-TP3CND86,TP3CND44,Used third top therapy for: menstrual problems,1025,1
+ALT.711_45.000,,TP3CND01-TP3CND86,TP3CND45,"Used third top therapy for: intellectual disability, also known as mental retardation",1026,1
+ALT.711_46.000,,TP3CND01-TP3CND86,TP3CND46,"Used third top therapy for: missing limbs (fingers, toes, or digits), amputee",1027,1
+ALT.711_47.000,,TP3CND01-TP3CND86,TP3CND47,Used third top therapy for: nausea and/or vomiting,1028,1
+ALT.711_48.000,,TP3CND01-TP3CND86,TP3CND48,Used third top therapy for: neurological problems,1029,1
+ALT.711_49.000,,TP3CND01-TP3CND86,TP3CND49,"Used third top therapy for: osteoporosis, tendinitis",1030,1
+ALT.711_50.000,,TP3CND01-TP3CND86,TP3CND50,"Used third top therapy for: allergies other than hay fever, respiratory, food, digestive, or skin allergies",1031,1
+ALT.711_51.000,,TP3CND01-TP3CND86,TP3CND51,Used third top therapy for: chronic pain,1032,1
+ALT.711_52.000,,TP3CND01-TP3CND86,TP3CND52,Used third top therapy for: other developmental problem,1033,1
+ALT.711_53.000,,TP3CND01-TP3CND86,TP3CND53,"Used third top therapy for: injury other than fracture, bone/joint injury",1034,1
+ALT.711_54.000,,TP3CND01-TP3CND86,TP3CND54,Used third top therapy for: mental health disorders,1035,1
+ALT.711_55.000,,TP3CND01-TP3CND86,TP3CND55,Used third top therapy for: muscle or bone pain,1036,1
+ALT.711_56.000,,TP3CND01-TP3CND86,TP3CND56,"Used third top therapy for: nerve damage, including carpal tunnel syndrome",1037,1
+ALT.711_57.000,,TP3CND01-TP3CND86,TP3CND57,Used third top therapy for: problems with being overweight,1038,1
+ALT.711_58.000,,TP3CND01-TP3CND86,TP3CND58,Used third top therapy for: phobia or fears,1039,1
+ALT.711_59.000,,TP3CND01-TP3CND86,TP3CND59,"Used third top therapy for: polio (myelitis), paralysis, para/quadriplegia",1040,1
+ALT.711_60.000,,TP3CND01-TP3CND86,TP3CND60,Used third top therapy for: poor circulation in legs,1041,1
+ALT.711_61.000,,TP3CND01-TP3CND86,TP3CND61,Used third top therapy for: prostate trouble or impotence,1042,1
+ALT.711_62.000,,TP3CND01-TP3CND86,TP3CND62,"Used third top therapy for: recurring headache, other than migraine",1043,1
+ALT.711_63.000,,TP3CND01-TP3CND86,TP3CND63,Used third top therapy for: respiratory allergy,1044,1
+ALT.711_64.000,,TP3CND01-TP3CND86,TP3CND64,Used third top therapy for: rheumatoid arthritis,1045,1
+ALT.711_65.000,,TP3CND01-TP3CND86,TP3CND65,Used third top therapy for: senility,1046,1
+ALT.711_66.000,,TP3CND01-TP3CND86,TP3CND66,Used third top therapy for: sinusitis,1047,1
+ALT.711_67.000,,TP3CND01-TP3CND86,TP3CND67,Used third top therapy for: eczema or any kind of skin allergy,1048,1
+ALT.711_68.000,,TP3CND01-TP3CND86,TP3CND68,"Used third top therapy for: skin problems, other than eczema or skin allergies",1049,1
+ALT.711_69.000,,TP3CND01-TP3CND86,TP3CND69,Used third top therapy for: sore throat other than strep or tonsillitis,1050,1
+ALT.711_70.000,,TP3CND01-TP3CND86,TP3CND70,Used third top therapy for: sprain or strain,1051,1
+ALT.711_71.000,,TP3CND01-TP3CND86,TP3CND71,Used third top therapy for: frequent stress,1052,1
+ALT.711_72.000,,TP3CND01-TP3CND86,TP3CND72,Used third top therapy for: strep throat or tonsillitis,1053,1
+ALT.711_73.000,,TP3CND01-TP3CND86,TP3CND73,"Used third top therapy for: substance abuse, other than alcohol or tobacco",1054,1
+ALT.711_74.000,,TP3CND01-TP3CND86,TP3CND74,Used third top therapy for: filled problem from AFLHCA_S1,1055,1
+ALT.711_75.000,,TP3CND01-TP3CND86,TP3CND75,Used third top therapy for: filled problem from AFLHCA_S2,1056,1
+ALT.711_76.000,,TP3CND01-TP3CND86,TP3CND76,Used third top therapy for: ulcer,1057,1
+ALT.711_77.000,,TP3CND01-TP3CND86,TP3CND77,Used third top therapy for: urinary problems,1058,1
+ALT.711_78.000,,TP3CND01-TP3CND86,TP3CND78,"Used third top therapy for: varicose veins, hemorrhoids",1059,1
+ALT.711_79.000,,TP3CND01-TP3CND86,TP3CND79,Used third top therapy for: vision problem,1060,1
+ALT.711_80.000,,TP3CND01-TP3CND86,TP3CND80,Used third top therapy for: weak or failing kidneys,1061,1
+ALT.711_81.000,,TP3CND01-TP3CND86,TP3CND81,Used third top therapy for: COPD,1062,1
+ALT.711_82.000,,TP3CND01-TP3CND86,TP3CND82,Used third top therapy for: back pain or problem,1063,1
+ALT.711_83.000,,TP3CND01-TP3CND86,TP3CND83,Used third top therapy for: Neck pain/problem,1064,1
+ALT.711_84.000,,TP3CND01-TP3CND86,TP3CND84,Used third top therapy for: severe headache or migraine,1065,1
+ALT.711_85.000,,TP3CND01-TP3CND86,TP3CND85,Used third top therapy for: stomach or intestinal illness,1066,1
+ALT.711_86.000,,TP3CND01-TP3CND86,TP3CND86,Used third top therapy for: other specify,1067,1
+ALT.711_87.000,RECODE,,TP3CND87,Used third top therapy for: condition not elsewhere classified,1068,1
+ALT.711_88.000,RECODE,,TP3CND88,Used third top therapy for: any cardiovascular condition,1069,1
+ALT.712_00.000,,TP3_CMST,TP3_CMST,Most important health problem for which third top therapy was used,1070 -1071,2
+ALT.713_00.000,,TP3_CHLP,TP3_CHLP,How much third top therapy helped address the health problem,1072,1
+ALT.714_00.000,,TP3_MTR1,TP3_MTR1,Received prescription medication for most important health condition treated by third top therapy,1073,1
+ALT.715_00.000,,TP3_MTR2,TP3_MTR2,Received over-the-counter medication for most important health condition treated by third top therapy,1074,1
+ALT.716_00.000,,TP3_MTR3,TP3_MTR3,Received surgery for most important health condition treated by third top therapy,1075,1
+ALT.717_00.000,,TP3_MTR4,TP3_MTR4,Received physical therapy for most important health condition treated by third top therapy,1076,1
+ALT.718_00.000,,TP3_MTR5,TP3_MTR5,Received mental health counseling for most important health condition treated by third top therapy,1077,1
+ALT.719_00.000,,TP3_RS1,TP3_RS1,Used/saw practitioner for third top therapy because: medical treatments were too expensive,1078,1
+ALT.720_00.000,,TP3_RS2,TP3_RS2,Used/saw practitioner for third top therapy because: therapy combined with medical treatment would help,1079,1
+ALT.721_00.000,,TP3_RS3,TP3_RS3,Used/saw practitioner for third top therapy because: medical treatments do not work for your specific health problem,1080,1
+ALT.722_00.000,,TP3_RS4,TP3_RS4,Used/saw practitioner for third top therapy because: medications cause side effects,1081,1
+ALT.723_00.000,,TP3_RS5,TP3_RS5,Used/saw practitioner for third top therapy because: it can be practiced/done on your own,1082,1
+ALT.724_00.000,,TP3_RS6,TP3_RS6,Used/saw practitioner for third top therapy because: it is natural,1083,1
+ALT.725_00.000,,TP3_RS7,TP3_RS7,"Used/saw practitioner for third top therapy because: it focuses on the whole person, mind, body, and spirit",1084,1
+ALT.726_00.000,,TP3_RS8,TP3_RS8,Used/saw practitioner for third top therapy because: it treats the cause and not just the symptoms,1085,1
+ALT.727_00.000,,TP3_RS9,TP3_RS9,Used/saw practitioner for third top therapy because: it was part of your upbringing,1086,1
+ALT.728_00.000,,TP3_REC1,TP3_REC1,Used/saw practitioner for third top therapy because it was recommended by: a medical doctor,1087,1
+ALT.729_00.000,,TP3_REC2,TP3_REC2,Used/saw practitioner for third top therapy because it was recommended by: a family member,1088,1
+ALT.730_00.000,,TP3_REC3,TP3_REC3,Used/saw practitioner for third top therapy because it was recommended by: a friend,1089,1
+ALT.731_00.000,,TP3_REC4,TP3_REC4,Used/saw practitioner for third top therapy because it was recommended by: a co-worker,1090,1
+ALT.732_00.000,,TP3_IMP,TP3_IMP,How important use of third top therapy was in maintaining health and wellbeing,1091,1
+ALT.733_00.000,,TP3_DS1,TP3_DS1,Told personal health care provider about use of third top therapy,1092,1
+ALT.734_00.000,,TP3_DS2,TP3_DS2,Didn't tell personal health care provider about use of third top therapy because: weren't using therapy at the time,1093,1
+ALT.735_00.000,,TP3_DS3,TP3_DS3,Didn't tell personal health care provider about use of third top therapy because: they discouraged use of therapy in the past,1094,1
+ALT.736_00.000,,TP3_DS4,TP3_DS4,Didn't tell personal health care provider about use of third top therapy because: worried they would discourage it,1095,1
+ALT.737_00.000,,TP3_DS5,TP3_DS5,Didn't tell personal health care provider about use of third top therapy because: concerned about a negative reaction,1096,1
+ALT.738_00.000,,TP3_DS6,TP3_DS6,Didn't tell personal health care provider about use of third top therapy because: didn't think they needed to know,1097,1
+ALT.739_00.000,,TP3_DS7,TP3_DS7,Didn't tell personal health care provider about use of third top therapy because: they didn't ask,1098,1
+ALT.740_00.000,,TP3_DS8,TP3_DS8,Didn't tell health care provider about use of third top therapy because: didn't think they knew as much about therapy as you do,1099,1
+ALT.741_00.000,,TP3_DS9,TP3_DS9,Didn't tell personal health care provider about use of third top therapy because: they didn't give you enough time to tell them,1100,1
+ALT.760_00.000,,TP3_INF1,TP3_INF1,Got information about third top therapy from: the internet,1101,1
+ALT.761_00.000,,TP3_INF2,TP3_INF2,"Got information about third top therapy from: books, magazines, or newspapers",1102,1
+ALT.762_00.000,,TP3_INF3,TP3_INF3,"Got information about third top therapy from: DVDs, videos, or CDs",1103,1
+ALT.763_00.000,,TP3_INF4,TP3_INF4,Got information about third top therapy from: television or radio,1104,1
+ALT.764_00.000,,TP3_INF5,TP3_INF5,Got information about third top therapy from: scientific articles,1105,1
+ALT.765_00.000,,TP3_INF6,TP3_INF6,Got information about third top therapy from: health food stores,1106,1

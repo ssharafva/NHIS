@@ -1,0 +1,134 @@
+Question#,Recode,InstrumentVariableName,FinalDocName,ProcessingVariableLabel,Location,Length
+IDN.000_00.000,,,RECTYPE,File type identifier,1 - 2,2
+IDN.000_02.000,,,SRVY_YR,Year of National Health Interview Survey,3 - 6,4
+IDN.000_04.000,,,HHX,Household Number,7 - 12,6
+IDN.000_35.000,,,FMX,Family Number,13 - 14,2
+IDN.000_70.000,,,WTFA_FAM,Weight - Final Annual,15 - 20,6
+FRT.010_02.000,R01 RECODE,,FINT_Y_P,Year Interview Completed - Year,21 - 24,4
+FRT.010_02.000,R02 RECODE,,FINT_M_P,Date of Interview - Month,25 - 26 27,2
+COV.330_01.000,R01 RECODE,,TELN_FLG,Supplied telephone number,28,1
+COV.331_00.000,,CURWRK,CURWRKN,Working phone inside home,29,1
+COV.332_00.000,,RNOSERV,RNOSERVN,Without telephone service in the past 12 months,30 - 32,1
+COV.333_00.000,R01 RECODE,,RHLNGDY,Number of days without telephone service,33,3
+COV.334_00.000,,TELCEL,TELCELN,Working cell phone in family,34 - 35 36,1
+COV.335_00.000,,WRKCEL,WRKCELN,Number of working cell phones,37,2
+COV.336_00.000,,CELLOUT,CELLOUT,Working cell during land-line outage,38,1
+COV.337_00.000,,PHONEUSE,PHONEUSE,Received calls cell/landline/both,39 - 40,1
+BCK.045_00.000,,CLOSE1,FLNGINTV,Language of Interview,41 - 42,1
+MFM.000_00.000,R02 RECODE,,FM_SIZE,Size of family,43 - 44,2
+MFM.000_00.000,R03 RECODE,,FM_KIDS,# family members under 18 years of age,45,2
+MFM.000_00.000,R04 RECODE,,FM_ELDR,# family members aged 65 and older,46 - 47,2
+MFM.000_00.000,R05 RECODE,,FM_TYPE,Family type,48 - 49,1
+MFM.000_00.000,R07 RECODE,,FM_STRCP,Family Structure,50 - 51 52,2
+MFM.000_00.000,R08 RECODE,,FM_STRP,Family Structure,,2
+MFM.000_00.000,R10 RECODE,,FM_EDUC1,Education of adult with highest education in family,,2
+FHS.005_00.000,R01 RECODE,,FCHLMYN,Any children under age 5 in family with play limitations?,,1
+FHS.005_00.000,R02 RECODE,,FCHLMCT,# children under age 5 in family with play limitations,53 - 54,2
+FHS.050_00.000,R01 RECODE,,FSPEDYN,Any children in family receive Special Education/EIS?,55,1
+FHS.050_00.000,R02 RECODE,,FSPEDCT,# children in family receiving Special Education/EIS,56 - 57,2
+FHS.070_00.000,R01 RECODE,,FLAADLYN,Any family member need help with an ADL?,58,1
+FHS.070_00.000,R02 RECODE,,FLAADLCT,# family members needing help with an ADL,59 - 60,2
+FHS.150_00.000,R01 RECODE,,FLIADLYN,Any family member need help with an IADL?,61,1
+FHS.150_00.000,R02 RECODE,,FLIADLCT,# family members needing help with an IADL,62 - 63,2
+FHS.190_00.000,R01 RECODE,,FWKLIMYN,Any family member have work limitations due to a health problem?,64,1
+FHS.190_00.000,R02 RECODE,,FWKLIMCT,# family members with work limitations due to a health problem,65 - 66,2
+FHS.210_00.000,R01 RECODE,,FWALKYN,Any family member have difficulty walking without equipment?,67,1
+FHS.210_00.000,R02 RECODE,,FWALKCT,# family members having difficulty walking without equipment,68 - 69,2
+FHS.230_00.000,R01 RECODE,,FREMEMYN,Any family member limited by difficulty remembering?,70,1
+FHS.230_00.000,R02 RECODE,,FREMEMCT,# family members with difficulty remembering,71 - 72,2
+FHS.250_00.000,R01 RECODE,,FANYLYN,Is any family member limited in ANY WAY?,73,1
+FHS.250_00.000,R02 RECODE,,FANYLCT,# of family members with ANY limitation,74 - 75,2
+FHS.500_00.000,R03 RECODE,,FHSTATEX,# family members in excellent health,76 - 77,2
+FHS.500_00.000,R04 RECODE,,FHSTATVG,# family members in very good health,78 - 79,2
+FHS.500_00.000,R05 RECODE,,FHSTATG,# family members in good health,80 - 81,2
+FHS.500_00.000,R06 RECODE,,FHSTATFR,# family members in fair health,82 - 83,2
+FHS.500_00.000,R07 RECODE,,FHSTATPR,# family members in poor health,84 - 85,2
+FFS.010_00.000,,FSRUNOUT,FSRUNOUT,Worried food would run out before got money to buy more,86,1
+FFS.020_00.000,,FSLAST,FSLAST,Food did not last before had money to get more,87,1
+FFS.030_00.000,,FSBALANC,FSBALANC,Could not afford to eat balanced meals,88,1
+FFS.040_00.000,,FSSKIP,FSSKIP,Cut size or skipped meals because not enough money,89,1
+FFS.050_00.000,,FSSKDAYS,FSSKDAYS,Number of days cut size or skipped meals,90 - 91,2
+FFS.060_00.000,,FSLESS,FSLESS,Eat less than felt should because not enough money,92,1
+FFS.070_00.000,,FSHUNGRY,FSHUNGRY,Hungry but did not eat because not enough money,93,1
+FFS.080_00.000,,FSWEIGHT,FSWEIGHT,Lose weight because not enough money for food,94,1
+FFS.090_00.000,,FSNOTEAT,FSNOTEAT,Not eat for a whole day because not enough money for food,95,1
+FFS.100_00.000,,FSNEDAYS,FSNEDAYS,Number of days did not eat,96 - 97,2
+FFS.000_00.000,R01 RECODE,,FSRAW,Raw score on the 30-day food security scale,98 - 99,2
+FFS.000_00.000,R02 RECODE,,FSSTATD,Detailed family-level food security status on the 30-day food security scale,100,1
+FFS.000_00.000,R03 RECODE,,FSSTAT,Family-level food security status on the 30-day food security,101,1
+FAU.010_00.000,R01 RECODE,,FDMEDYN,"Any family member delay* seeking medical care, 12m?",102,1
+FAU.010_00.000,R02 RECODE,,FDMEDCT,"# of family members for whom medical care was delayed*, 12m",103 - 104,2
+FAU.030_00.000,R01 RECODE,,FNMEDYN,"Any family member need and not get medical care*, 12m?",105,1
+FAU.030_00.000,R02 RECODE,,FNMEDCT,"# of family members who needed and did not get medical care*, 12m",106 - 107,2
+FAU.050_00.000,R01 RECODE,,FHOSP2YN,"Any family member in hospital overnight, 12m?",108,1
+FAU.050_00.000,R02 RECODE,,FHOSP2CT,"# of family members in hospital overnight, 12m",109 - 110,2
+FAU.120_00.000,R01 RECODE,,FHCHMYN,"Any family member receive home care*, 2wk?",111,1
+FAU.120_00.000,R02 RECODE,,FHCHMCT,"# of family members who received home care*, 2wk",112 - 113,2
+FAU.150_00.000,R01 RECODE,,FHCPHRYN,"Any family member get advice/test results over the phone, 2wk?",114,1
+FAU.150_00.000,R02 RECODE,,FHCPHRCT,"# of family members who got advice/test results over the phone, 2wk",115 - 116,2
+FAU.180_00.000,R01 RECODE,,FHCDVYN,"Any family member have an office visit, etc., 2wk",117,1
+FAU.180_00.000,R02 RECODE,,FHCDVCT,"# of family members who had an office visit, etc., 2wk",118 - 119,2
+FAU.210_00.000,R01 RECODE,,F10DVYN,"Any family member receive care 10+ times, 12m?",120,1
+FAU.210_00.000,R02 RECODE,,F10DVCT,"# of family members who received care 10+ times, 12m",121 - 122,2
+FHI.070_00.000,R01 RECODE,,FHICOVYN,Any family member have health insurance coverage?,123,1
+FHI.070_00.000,R02 RECODE,,FHICOVCT,Number of family members with health insurance coverage,124 - 125,2
+FHI.070_00.000,R03 RECODE,,FHIPRVCT,Number of family members with private health insurance coverage,126 - 127,2
+FHI.070_00.000,R04 RECODE,,FHISINCT,Number of family members with single service plans,128 - 129,2
+FHI.070_00.000,R05 RECODE,,FHICARCT,Number of family members with Medicare,130 - 131,2
+FHI.070_00.000,R06 RECODE,,FHICADCT,Number of family members with Medicaid,132 - 133,2
+FHI.070_00.000,R07 RECODE,,FHICHPCT,Number of family members with SCHIP,134 - 135,2
+FHI.070_00.000,R08 RECODE,,FHIMILCT,Number of family members with Military health insurance coverage,136 - 137,2
+FHI.070_00.000,R09 RECODE,,FHIIHSCT,Number of family members with Indian Health Service coverage,138 - 139,2
+FHI.070_00.000,R10 RECODE,,FHIPUBCT,Number of family members with other state-sponsored health plan,140 - 141,2
+FHI.070_00.000,R11 RECODE,,FHIOGVCT,Number of family members with other government health plan,142 - 143,2
+FHI.204_01.010,R12 RECODE,,FPRCOOH,Any persons covered living outside of the household,144,1
+FHI.210_01.000,R13 RECODE,,FHIEBCCT,Number of family members with employer based coverage,145 - 146,2
+FHI.249_03.000,R14 RECODE,,COVCONF,Confidence in obtaining affordable coverage,147,1
+FHI.320_00.000,R15 RECODE,,FHICOST,Cost of family medical/dental care in the past 12 months,148,1
+FHI.325_00.010,R16 RECODE,,FMEDBILL,Problems paying or unable to pay any medical bills,149,1
+FHI.327_00.010,R17 RECODE,,FMEDBPAY,Medical bills being paid off over time,150,1
+FHI.327_00.020,R18 RECODE,,FMEDBNOP,Unable to pay medical bills,151,1
+FHI.330_00.000,R19 RECODE,,FSAF,Family has a Flexible Spending Account,152,1
+FSD.007_00.000,R01 RECODE,,FHDSTCT,# of children in family currently or ever in Head Start,153 - 154,2
+FSD.050_00.000,R01 RECODE,,FDGLWCT1,# family members working last week,155 - 156,2
+FSD.050_00.000,R02 RECODE,,FDGLWCT2,# family members looking for work last week,157 - 158,2
+FSD.070_00.000,R01 RECODE,,FWRKLWCT,# family members working full time last week,159 - 160,2
+FIN.040_00.000,R01 RECODE,,FSALYN,Any family member receive income from wages or salary?,161,1
+FIN.040_00.000,R01 RECODE,,FSALCT,# family members receiving income from wages or salary,162-163,2
+FIN.060_00.000,R01 RECODE,,FSEINCYN,Any family member receive income from self-employment?,164,1
+FIN.060_00.000,R02 RECODE,,FSEINCCT,# family members receiving income from self-employment,165 - 166,2
+FIN.080_00.000,R01 RECODE,,FSSRRYN,Any family member receive Social Security or Railroad Retirement income?,167,1
+FIN.080_00.000,R02 RECODE,,FSSRRCT,# family members receiving Social Security or Railroad Retirement income,168 - 169,2
+FIN.100_00.000,R01 RECODE,,FPENSYN,Any family members receive disability pensions*?,170,1
+FIN.100_00.000,R02 RECODE,,FPENSCT,# family members receiving disability pensions*,171 - 172,2
+FIN.104_00.000,R01 RECODE,,FOPENSYN,Any family member receive other survivor or retirement pensions?,173,1
+FIN.104_00.000,R02 RECODE,,FOPENSCT,# family members receiving other survivor or retirement pension,174 - 175,2
+FIN.120_00.000,R01 RECODE,,FSSIYN,Any family member receive income from SSI?,176,1
+FIN.120_00.000,R02 RECODE,,FSSICT,# of family members receiving income from SSI,177 - 178,2
+FIN.160_00.000,R01 RECODE,,FTANFYN,Any family member receive income from a state or county welfare program?,179,1
+FIN.160_00.000,R02 RECODE,,FTANFCT,# of family members receiving income from a state or county welfare program,180 - 181,2
+FIN.166_00.000,R01 RECODE,,FOWBENYN,Any family member receive other kind of welfare assistance?,182,1
+FIN.166_00.000,R02 RECODE,,FOWBENCT,# of family members receiving other kind of welfare assistance,183 - 184,2
+FIN.180_00.000,R01 RECODE,,FINTR1YN,"Any family member receive income from interest bearing accounts, funds, etc.?",185,1
+FIN.180_00.000,R02 RECODE,,FINTR1CT,"# of family members receiving income from interest bearing accounts, funds, etc.",186 - 187,2
+FIN.200_00.000,R01 RECODE,,FDIVDYN,"Any family member receive dividends from stocks, etc.?",188,1
+FIN.200_00.000,R02 RECODE,,FDIVDCT,"# of family members receiving dividends from stocks, etc.",189 - 190,2
+FIN.220_00.000,R01 RECODE,,FCHSPYN,Any family member receive child support income?,191,1
+FIN.220_00.000,R02 RECODE,,FCHSPCT,# of family members for whom child support was received,192 - 193,2
+FIN.240_00.000,R01 RECODE,,FINCOTYN,Any family member receive income from any other source?,194,1
+FIN.240_00.000,R02 RECODE,,FINCOTCT,# of family members receiving income from any other source,195 - 196,2
+FIN.250_00.000,R01 RECODE,,FINCFLG,Flag indicating difference in how family income data were collected,197,1
+FIN.250_00.000,R01 RECODE,,INCGRP2,Total combined family income (grouped),198 - 199,2
+FIN.250_00.000,R02 RECODE,,INCGRP3,Total combined family income (grouped),200 - 201,2
+FIN.250_00.000,R03 RECODE,,RAT_CAT2,Ratio of family income to the poverty threshold,202 - 203,2
+FIN.250_00.000,R04 RECODE,,RAT_CAT3,Ratio of family income to the poverty threshold,204 - 205,2
+FIN.280_00.000,,HOUSEOWN,HOUSEOWN,Home tenure status,206,1
+FIN.282_00.000,,FGAH,FGAH,Paying lower rent due to government program,207,1
+FIN.310_00.000,R01 RECODE,,FSSAPLYN,Any family member ever apply for SSI?,208,1
+FIN.310_00.000,R02 RECODE,,FSSAPLCT,# family members ever applying for SSI,209 - 210,2
+FIN.340_00.000,R01 RECODE,,FSDAPLYN,Any family member ever apply for SSDI?,211,1
+FIN.340_00.000,R02 RECODE,,FSDAPLCT,# family members ever applying for SSDI,212 - 213,2
+FIN.360_00.000,,FSNAP,FSNAP,Any family member receive food stamp/SNAP benefits last calendar year?,214,1
+FIN.380_00.000,,FSNAPMYR,FSNAPMYR,"Number of months family received food stamps/SNAP benefits, last calendar year",215 - 216,2
+FIN.385_00.000,R01 RECODE,,FWICYN,Any family member receiving WIC benefits?,217,1
+FIN.385_00.000,R02 RECODE,,FWICCT,# family members receiving WIC benefits,218 - 219,2
